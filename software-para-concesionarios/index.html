@@ -4,54 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>
-    Software para Concesionarios en Argentina | Sistema de Gestión Automotor | Dromux
-  </title>
+  <title>Software para Concesionarios en Argentina | Sistema de Gestión Automotor | Dromux</title>
 
-  <meta name="description"
-    content="Dromux es el software para concesionarios en Argentina que centraliza stock, leads, ventas, reportes y métricas en tiempo real. Sistema de gestión automotor profesional para aumentar la rentabilidad.">
+  <meta name="description" content="Dromux es el software para concesionarios en Argentina que centraliza stock, leads, ventas, reportes y métricas en tiempo real. Sistema de gestión automotor profesional para aumentar la rentabilidad.">
 
-  <meta name="keywords"
-    content="software para concesionarios, sistema de gestión automotor, software para concesionarias en Argentina, crm automotor, gestión de stock vehículos, sistema para agencia de autos">
+  <meta name="keywords" content="software para concesionarios, sistema de gestión automotor, software para concesionarias en Argentina, crm automotor, gestión de stock vehículos, sistema para agencia de autos">
 
   <meta name="robots" content="index, follow">
-
-  <link rel="canonical" href="https://dromux.com/software-para-concesionarios">
-
+  <link rel="canonical" href="https://dromux.com/software-para-concesionarios/">
   <link rel="icon" type="image/png" href="/assets/img/dromux.png">
 
-  <!-- ========================= -->
-  <!-- Google Analytics (GA4)   -->
-  <!-- ========================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css" />
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T2SFS3BCJ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-1T2SFS3BCJ');
   </script>
 
-  <!-- ========================= -->
-
-
-  <!-- Open Graph -->
   <meta property="og:title" content="Software para Concesionarios en Argentina | Dromux">
-  <meta property="og:description"
-    content="Sistema de gestión automotor para concesionarias. Centralizá stock, leads y ventas en una sola plataforma profesional.">
+  <meta property="og:description" content="Sistema de gestión automotor para concesionarias. Centralizá stock, leads y ventas en una sola plataforma profesional.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.dromux.com/software-para-concesionarios">
   <meta property="og:image" content="https://www.dromux.com/og-software-concesionarios.png">
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Software para Concesionarios | Dromux">
-  <meta name="twitter:description"
-    content="Sistema de gestión automotor moderno para concesionarias en Argentina.">
+  <meta name="twitter:description" content="Sistema de gestión automotor moderno para concesionarias en Argentina.">
 
-  <!-- Schema.org -->
-   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -72,113 +58,174 @@
     }
   }
   </script>
-
-  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-
 <body>
+  <div class="navbar-spacer"></div>
 
-      <!-- NAVBAR -->
-<div class="navbar-spacer"></div>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <div class="mobile-left">
+        <a href="/" class="logo-mobile">
+          <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
+        </a>
 
-<nav class="navbar" id="navbar">
-  <div class="navbar-container">
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
 
-    <!-- MOBILE LEFT -->
-    <div class="mobile-left">
-      <a href="/" class="logo-mobile">
+      <a href="/" class="logo-desktop">
         <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
       </a>
 
-      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link">Inicio</a></li>
+        <li><a href="/software-para-concesionarios/" class="nav-link active-link">Software</a></li>
+        <li><a href="/funcionalidades/" class="nav-link">Funcionalidades</a></li>
+        <li><a href="/web-para-concesionarios/" class="nav-link">Web</a></li>
+        <li><a href="/planes/" class="nav-link">Planes</a></li>
+        <li><a href="/preguntas-frecuentes/" class="nav-link">FAQ</a></li>
+        <li><a href="/contacto/" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <a href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion" target="_blank" rel="noopener noreferrer" class="nav-cta">
+        Hablar con un asesor
+      </a>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-header">
+      <a href="/">
+        <img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" class="mobile-logo-img">
+      </a>
+
+      <button class="close-btn" id="closeMenu" aria-label="Cerrar menú">
+        <i data-lucide="x"></i>
       </button>
     </div>
 
-    <!-- LOGO DESKTOP -->
-    <a href="/" class="logo-desktop">
-      <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
+    <div class="mobile-links">
+      <a href="/" class="mobile-link">Inicio</a>
+      <a href="/software-para-concesionarios/" class="mobile-link active-link">Software</a>
+      <a href="/funcionalidades/" class="mobile-link">Funcionalidades</a>
+      <a href="/web-para-concesionarios/" class="mobile-link">Web</a>
+      <a href="/planes/" class="mobile-link">Planes</a>
+      <a href="/preguntas-frecuentes/" class="mobile-link">FAQ</a>
+      <a href="/contacto/" class="mobile-link">Contacto</a>
+    </div>
+
+    <a href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion" target="_blank" rel="noopener noreferrer" class="mobile-menu-cta">
+      Hablar con un asesor
     </a>
-
-    <!-- MENU DESKTOP -->
-    <ul class="nav-menu">
-      <li><a href="/" class="nav-link"><i data-lucide="home"></i> Inicio</a></li>
-      <li><a href="/software-para-concesionarios/" class="nav-link active-link"><i data-lucide="layers"></i> Software</a></li>
-      <li><a href="/funcionalidades/" class="nav-link"><i data-lucide="layers"></i> Funcionalidades</a></li>
-      <li><a href="/web-para-concesionarios/" class="nav-link"><i data-lucide="globe"></i> Web</a></li>
-      <li><a href="/planes/" class="nav-link"><i data-lucide="credit-card"></i> Planes</a></li>
-      <li><a href="/preguntas-frecuentes/" class="nav-link"><i data-lucide="help-circle"></i> FAQ</a></li>
-      <li><a href="/contacto/" class="nav-link"><i data-lucide="phone"></i> Contacto</a></li>
-    </ul>
-
   </div>
-</nav>
-
-<!-- OVERLAY -->
-<div class="mobile-overlay" id="mobileOverlay"></div>
-
-<!-- MOBILE MENU -->
-<div class="mobile-menu" id="mobileMenu">
-  <div class="mobile-header">
-    <a href="/">
-      <img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" class="mobile-logo-img">
-    </a>
-
-    <button class="close-btn" id="closeMenu">
-      <i data-lucide="x"></i>
-    </button>
-  </div>
-
-  <div class="mobile-links">
-    <a href="/" class="mobile-link"><i data-lucide="home"></i> Inicio</a>
-    <a href="/software-para-concesionarios/" class="mobile-link active-link"><i data-lucide="layers"></i> Software</a>
-    <a href="/funcionalidades/" class="mobile-link"><i data-lucide="layers"></i> Funcionalidades</a>
-    <a href="/web-para-concesionarios/" class="mobile-link"><i data-lucide="globe"></i> Web</a>
-    <a href="/planes/" class="mobile-link"><i data-lucide="credit-card"></i> Planes</a>
-    <a href="/preguntas-frecuentes/" class="mobile-link"><i data-lucide="help-circle"></i> FAQ</a>
-    <a href="/contacto/" class="mobile-link"><i data-lucide="phone"></i> Contacto</a>
-  </div>
-</div>
 
   <main class="ds-wrapper">
+    <section class="ds-hero reveal">
+      <div class="ds-hero-grid"></div>
+      <div class="ds-hero-glow ds-glow-left"></div>
+      <div class="ds-hero-glow ds-glow-right"></div>
 
-    <!-- HERO -->
-    <section class="ds-hero">
-      <div class="ds-hero-glow"></div>
+      <div class="ds-container ds-hero-shell">
+        <div class="ds-hero-copy">
+          <span class="ds-kicker">Sistema de gestión automotor</span>
 
-      <div class="ds-container">
-        <h1>
-          Software para concesionarios en Argentina que profesionaliza tu gestión automotor
-        </h1>
+          <h1>
+            Software para concesionarios en Argentina que profesionaliza tu gestión automotor
+          </h1>
 
-        <p>
-          Dromux es un sistema de gestión automotor diseñado para concesionarias
-          que buscan ordenar su stock, centralizar leads, optimizar ventas
-          y tomar decisiones estratégicas basadas en datos reales.
-        </p>
+          <p>
+            Dromux es un sistema de gestión automotor diseñado para concesionarias
+            que buscan ordenar su stock, centralizar leads, optimizar ventas
+            y tomar decisiones estratégicas basadas en datos reales.
+          </p>
 
-        <div class="ds-buttons">
-          <a href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="ds-btn ds-btn-primary">
-            Solicitar reunion
-          </a>
+          <div class="ds-buttons">
+            <a href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="ds-btn ds-btn-primary">
+              Solicitar reunion
+            </a>
 
-          <a href="/planes/" class="ds-btn ds-btn-outline">
-            Ver planes
-          </a>
+            <a href="/planes/" class="ds-btn ds-btn-outline">
+              Ver planes
+            </a>
+          </div>
+
+          <div class="ds-hero-proof">
+            <div class="ds-proof-card">
+              <strong>1 plataforma</strong>
+              <span>para ordenar toda la operación</span>
+            </div>
+            <div class="ds-proof-card">
+              <strong>Tiempo real</strong>
+              <span>métricas, stock y gestión comercial</span>
+            </div>
+            <div class="ds-proof-card">
+              <strong>Diseñado</strong>
+              <span>para el mercado automotor argentino</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ds-hero-visual">
+          <div class="ds-dashboard-card ds-dashboard-main floating-card">
+            <div class="ds-topline"></div>
+            <div class="ds-dashboard-head">
+              <div>
+                <span class="mini-label">Vista general</span>
+                <h3>Operación centralizada</h3>
+              </div>
+              <span class="status-pill">Online</span>
+            </div>
+
+            <div class="ds-metrics-grid">
+              <div class="ds-metric-card">
+                <span>Leads ordenados</span>
+                <strong>CRM activo</strong>
+              </div>
+              <div class="ds-metric-card">
+                <span>Stock controlado</span>
+                <strong>Tiempo real</strong>
+              </div>
+              <div class="ds-metric-card wide">
+                <span>Decisiones con datos</span>
+                <strong>Rentabilidad, ventas y finanzas</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="ds-dashboard-card ds-dashboard-mini ds-mini-a floating-card">
+            <i data-lucide="car-front"></i>
+            <div>
+              <span class="mini-label">Stock</span>
+              <strong>Control inteligente</strong>
+            </div>
+          </div>
+
+          <div class="ds-dashboard-card ds-dashboard-mini ds-mini-b floating-card">
+            <i data-lucide="wallet"></i>
+            <div>
+              <span class="mini-label">Tesorería</span>
+              <strong>Cajas, bancos y cheques</strong>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- QUÉ ES DROMUX -->
-    <section class="ds-section">
-      <div class="ds-container">
-        <h2>¿Qué es Dromux?</h2>
+    <section class="ds-section reveal">
+      <div class="ds-container ds-section-head centered-head narrow-head">
+        <span class="ds-kicker">¿Qué es Dromux?</span>
+        <h2>Una plataforma pensada para resolver los problemas reales de una concesionaria</h2>
+      </div>
 
+      <div class="ds-container ds-text-shell premium-surface">
         <p>
           Dromux es un software para concesionarios desarrollado específicamente
           para el mercado automotor argentino. A diferencia de sistemas genéricos,
@@ -195,77 +242,157 @@
       </div>
     </section>
 
-    <!-- FUNCIONALIDADES -->
-    <section class="ds-section">
-      <div class="ds-container">
+    <section class="ds-section reveal">
+      <div class="ds-container ds-section-head centered-head narrow-head">
+        <span class="ds-kicker">Funcionalidades</span>
         <h2>Funcionalidades del sistema de gestión para concesionarias</h2>
+      </div>
 
-        <div class="ds-grid">
+      <div class="ds-container ds-grid ds-grid-features">
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="car-front"></i></div>
+          <h3>Gestión de Stock Inteligente</h3>
+          <p>
+            Control total de cada unidad: costos, gastos, rentabilidad,
+            estado financiero y tiempo en stock.
+          </p>
+        </div>
 
-          <div class="ds-card">
-            <h3>Gestión de Stock Inteligente</h3>
-            <p>
-              Control total de cada unidad: costos, gastos, rentabilidad,
-              estado financiero y tiempo en stock.
-            </p>
-          </div>
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="users-round"></i></div>
+          <h3>CRM Automotor</h3>
+          <p>
+            Seguimiento profesional de cada lead desde el primer contacto
+            hasta el cierre de la venta.
+          </p>
+        </div>
 
-          <div class="ds-card">
-            <h3>CRM Automotor</h3>
-            <p>
-              Seguimiento profesional de cada lead desde el primer contacto
-              hasta el cierre de la venta.
-            </p>
-          </div>
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="bar-chart-3"></i></div>
+          <h3>Reportes en Tiempo Real</h3>
+          <p>
+            Métricas claras de ventas, conversión, rendimiento por vendedor
+            y análisis financiero.
+          </p>
+        </div>
 
-          <div class="ds-card">
-            <h3>Reportes en Tiempo Real</h3>
-            <p>
-              Métricas claras de ventas, conversión, rendimiento por vendedor
-              y análisis financiero.
-            </p>
-          </div>
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="shield-check"></i></div>
+          <h3>Roles y Permisos</h3>
+          <p>
+            Controlá qué puede ver y hacer cada miembro del equipo:
+            vendedores, gerentes y administración.
+          </p>
+        </div>
 
-          <div class="ds-card">
-            <h3>Roles y Permisos</h3>
-            <p>
-              Controlá qué puede ver y hacer cada miembro del equipo:
-              vendedores, gerentes y administración.
-            </p>
-          </div>
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="file-badge"></i></div>
+          <h3>Gestoría Automotor</h3>
+          <p>
+            Seguimiento de trámites, documentación y estados administrativos
+            para mantener cada operación ordenada.
+          </p>
+        </div>
 
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="search-check"></i></div>
+          <h3>Peritaje</h3>
+          <p>
+            Registro de revisiones, observaciones y evaluaciones de unidades
+            para mejorar el control previo a la compra o venta.
+          </p>
+        </div>
+
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="wallet-cards"></i></div>
+          <h3>Tesorería</h3>
+          <p>
+            Gestión financiera integral con finanzas, cajas, bancos
+            y movimientos centralizados.
+          </p>
+        </div>
+
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="badge-dollar-sign"></i></div>
+          <h3>Cheques</h3>
+          <p>
+            Control de cheques emitidos, recibidos y pendientes
+            para una tesorería mucho más clara y profesional.
+          </p>
+        </div>
+
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="list-checks"></i></div>
+          <h3>Lista de tareas para el equipo</h3>
+          <p>
+            Organización interna con tareas, responsables y seguimiento
+            para que todo el equipo trabaje con procesos claros.
+          </p>
+        </div>
+
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="clipboard-pen-line"></i></div>
+          <h3>Sistema de Preventa</h3>
+          <p>
+            Controlá reservas, oportunidades y etapas previas al cierre
+            para profesionalizar la gestión comercial.
+          </p>
+        </div>
+
+        <div class="ds-card premium-card">
+          <div class="ds-card-icon"><i data-lucide="receipt-text"></i></div>
+          <h3>Recibos y Boletos Compra / Venta</h3>
+          <p>
+            Emisión y organización de comprobantes clave para respaldar
+            cada operación con documentación ordenada.
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- BENEFICIOS -->
-    <section class="ds-section">
-      <div class="ds-container">
+    <section class="ds-section reveal">
+      <div class="ds-container ds-section-head centered-head narrow-head">
+        <span class="ds-kicker">Beneficios</span>
         <h2>¿Por qué implementar un software para concesionarios?</h2>
+      </div>
 
-        <p>
-          Muchas concesionarias todavía trabajan con Excel, WhatsApp
-          desorganizado y sistemas improvisados. Esto genera pérdida
-          de oportunidades, errores financieros y falta de control.
-        </p>
+      <div class="ds-container ds-benefits-grid">
+        <div class="ds-benefit-panel premium-surface">
+          <p>
+            Muchas concesionarias todavía trabajan con Excel, WhatsApp
+            desorganizado y sistemas improvisados. Esto genera pérdida
+            de oportunidades, errores financieros y falta de control.
+          </p>
 
-        <p>
-          Implementar un sistema de gestión automotor como Dromux
-          permite profesionalizar la operación, aumentar la tasa
-          de cierre y mejorar la rentabilidad general del negocio.
-        </p>
+          <p>
+            Implementar un sistema de gestión automotor como Dromux
+            permite profesionalizar la operación, aumentar la tasa
+            de cierre y mejorar la rentabilidad general del negocio.
+          </p>
 
-        <p>
-          Si buscás un software para concesionarias en Argentina
-          que realmente entienda el rubro automotor, Dromux es la
-          herramienta adecuada.
-        </p>
+          <p>
+            Si buscás un software para concesionarias en Argentina
+            que realmente entienda el rubro automotor, Dromux es la
+            herramienta adecuada.
+          </p>
+        </div>
+
+        <div class="ds-benefit-list premium-surface">
+          <h3>Qué cambia con Dromux</h3>
+          <ul>
+            <li><i data-lucide="check"></i> Más control sobre stock, ventas y finanzas</li>
+            <li><i data-lucide="check"></i> Menos improvisación en la gestión diaria</li>
+            <li><i data-lucide="check"></i> Mejor seguimiento comercial del equipo</li>
+            <li><i data-lucide="check"></i> Procesos administrativos más ordenados</li>
+            <li><i data-lucide="check"></i> Información clara para decidir mejor</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <!-- CTA FINAL -->
-    <section class="ds-cta">
-      <div class="ds-container">
+    <section class="ds-cta reveal">
+      <div class="ds-container ds-cta-box premium-surface premium-surface-strong">
+        <span class="ds-kicker ds-kicker-light">Transformación digital</span>
         <h2>Transformá tu concesionaria con tecnología profesional</h2>
 
         <p>
@@ -281,137 +408,141 @@
         </a>
       </div>
     </section>
-
   </main>
 
-  <!-- FOOTER -->
-<footer class="footer" id="contacto">
-  <div class="footer-container">
+  <footer class="footer" id="contacto">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Dromux</h3>
+        <p class="footer-description">
+          Dromux es un software para concesionarios en Argentina que te permite gestionar stock, ventas, clientes y rentabilidad desde un solo sistema.
+        </p>
+      </div>
 
-    <div class="footer-brand">
-      <h3 class="footer-logo">Dromux</h3>
-      <p class="footer-description">
-        Dromux es un software para concesionarios en Argentina que te permite gestionar stock, ventas, clientes y rentabilidad desde un solo sistema.
-      </p>
-    </div>
+      <div class="footer-contact">
+        <h4 class="footer-subtitle">Contacto</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i data-lucide="map-pin" class="footer-icon"></i>
+            <span>Oncativo, Córdoba, Argentina</span>
+          </li>
+          <li>
+            <i data-lucide="message-circle" class="footer-icon"></i>
+            <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer">
+              +54 9 3572 674920
+            </a>
+          </li>
+          <li>
+            <i data-lucide="mail" class="footer-icon"></i>
+            <a href="mailto:dromuxmotors@gmail.com">
+              dromuxmotors@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="footer-contact">
-      <h4 class="footer-subtitle">Contacto</h4>
-      <ul class="footer-contact-list">
-        <li>
-          <i data-lucide="map-pin" class="footer-icon"></i>
-          <span>Oncativo, Córdoba, Argentina</span>
-        </li>
-        <li>
-          <i data-lucide="message-circle" class="footer-icon"></i>
-          <a href="https://wa.me/5493572674920" target="_blank">
-            +54 9 3572 674920
+      <div class="footer-social">
+        <h4 class="footer-subtitle">Seguinos</h4>
+        <div class="footer-social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="facebook" class="social-icon"></i>
           </a>
-        </li>
-        <li>
-          <i data-lucide="mail" class="footer-icon"></i>
-          <a href="mailto:dromuxmotors@gmail.com">
-            dromuxmotors@gmail.com
+          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="instagram" class="social-icon"></i>
           </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-social">
-      <h4 class="footer-subtitle">Seguinos</h4>
-      <div class="footer-social-icons">
-        <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank">
-          <i data-lucide="facebook" class="social-icon"></i>
-        </a>
-        <a href="https://www.instagram.com/dromux.motors/" target="_blank">
-          <i data-lucide="instagram" class="social-icon"></i>
-        </a>
-        <a href="https://wa.me/5493572674920" target="_blank">
-          <i data-lucide="message-circle" class="social-icon"></i>
-        </a>
+          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="message-circle" class="social-icon"></i>
+          </a>
+        </div>
       </div>
     </div>
 
+    <div class="footer-bottom">
+      <p class="footer-copyright">
+        &copy; 2026 Dromux. Software para concesionarios en Argentina.
+      </p>
+    </div>
+  </footer>
+
+  <div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
+    <a
+      href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios."
+      class="whatsapp-fab__button"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Abrir chat de WhatsApp"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+        alt="WhatsApp"
+        class="whatsapp-fab__icon"
+        loading="lazy"
+      >
+      <span class="whatsapp-fab__pulse"></span>
+    </a>
+
+    <div class="whatsapp-fab__tooltip" id="waTooltip">
+      ¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong>
+    </div>
   </div>
 
-  <div class="footer-bottom">
-    <p class="footer-copyright">
-      &copy; 2026 Dromux. Software para concesionarios en Argentina.
-    </p>
-  </div>
-</footer>
+  <script>
+    window.addEventListener("load", function () {
+      const tooltip = document.getElementById("waTooltip");
 
-<!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
-<div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
-  <a
-    href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios."
-    class="whatsapp-fab__button"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Abrir chat de WhatsApp"
-  >
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
-      alt="WhatsApp"
-      class="whatsapp-fab__icon"
-      loading="lazy"
-    />
-    <span class="whatsapp-fab__pulse"></span>
-  </a>
+      setTimeout(() => {
+        tooltip.classList.add("is-visible");
+      }, 1000);
 
-  <div class="whatsapp-fab__tooltip" id="waTooltip">
-    ¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong>
-  </div>
-</div>
+      setTimeout(() => {
+        tooltip.classList.remove("is-visible");
+      }, 5500);
+    });
+  </script>
 
-<script>
-  window.addEventListener("load", function () {
-    const tooltip = document.getElementById("waTooltip");
+  <script>
+    lucide.createIcons();
+  </script>
+  <script>
+    const navbar = document.getElementById("navbar");
+    const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const mobileOverlay = document.getElementById("mobileOverlay");
+    const closeMenu = document.getElementById("closeMenu");
 
-    setTimeout(() => {
-      tooltip.classList.add("is-visible");
-    }, 1000);
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 20) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
 
-    setTimeout(() => {
-      tooltip.classList.remove("is-visible");
-    }, 5500);
-  });
-</script>
+    hamburger?.addEventListener("click", () => {
+      mobileMenu.classList.add("active");
+      mobileOverlay.classList.add("active");
+      document.body.style.overflow = "hidden";
+    });
 
-<script>
-  lucide.createIcons();
-</script>
-<script>
-  const navbar = document.getElementById("navbar");
-  const hamburger = document.getElementById("hamburger");
-  const mobileMenu = document.getElementById("mobileMenu");
-  const mobileOverlay = document.getElementById("mobileOverlay");
-  const closeMenu = document.getElementById("closeMenu");
-
-  // Scroll effect
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 20) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
+    function closeMobileMenu() {
+      mobileMenu.classList.remove("active");
+      mobileOverlay.classList.remove("active");
+      document.body.style.overflow = "";
     }
-  });
 
-  // Open menu
-  hamburger.addEventListener("click", () => {
-    mobileMenu.classList.add("active");
-    mobileOverlay.classList.add("active");
-  });
+    mobileOverlay?.addEventListener("click", closeMobileMenu);
+    closeMenu?.addEventListener("click", closeMobileMenu);
 
-  // Close menu
-  function closeMobileMenu() {
-    mobileMenu.classList.remove("active");
-    mobileOverlay.classList.remove("active");
-  }
+    const elements = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
 
-  mobileOverlay.addEventListener("click", closeMobileMenu);
-  closeMenu.addEventListener("click", closeMobileMenu);
-</script>
-
+    elements.forEach((el) => observer.observe(el));
+  </script>
 </body>
 </html>

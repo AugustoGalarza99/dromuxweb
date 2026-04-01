@@ -11,26 +11,22 @@
     content="Respondemos todas las preguntas frecuentes sobre el software para concesionarios Dromux: precios, implementación, CRM automotor, web automática y soporte."
   />
 
-  <link rel="canonical" href="https://dromux.com/preguntas-frecuentes" />
+  <link rel="canonical" href="https://dromux.com/preguntas-frecuentes/" />
   <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/png" href="/assets/img/dromux.png" />
 
-  <link rel="icon" type="image/png" href="/assets/img/dromux.png">
-
-  <!-- ========================= -->
-  <!-- Google Analytics (GA4)   -->
-  <!-- ========================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T2SFS3BCJ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-1T2SFS3BCJ');
   </script>
-
-  <!-- ========================= -->
-
 
   <meta property="og:title" content="Preguntas Frecuentes | Dromux" />
   <meta property="og:description" content="Dudas sobre precios, implementación y funcionamiento del software para concesionarios." />
@@ -38,8 +34,7 @@
   <meta property="og:url" content="https://www.dromux.com/preguntas-frecuentes" />
   <meta property="og:image" content="https://www.dromux.com/og-faq.png" />
 
-  <!-- FAQ SCHEMA -->
-   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,7 +45,7 @@
         "name": "¿Cuánto cuesta el software para concesionarios Dromux?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Planes desde $70.000 mensuales. Opción de pago único + mantenimiento. Implementación bonificada en la mayoría de los casos."
+          "text": "Planes desde $100.000 mensuales en el plan Impulso. También contamos con planes Expansión, Escala y Liderazgo según cantidad de vehículos, usuarios y nivel de personalización."
         }
       },
       {
@@ -66,7 +61,7 @@
         "name": "¿Cuánto demora la implementación?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Entre 2 y 5 días hábiles con configuración inicial, carga de unidades y capacitación."
+          "text": "Generalmente entre 2 y 5 días hábiles, incluyendo configuración inicial, carga de primeras unidades y capacitación."
         }
       },
       {
@@ -74,7 +69,7 @@
         "name": "¿Funciona desde celular o tablet?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí. El sistema es 100% responsive y optimizado para dispositivos móviles."
+          "text": "Sí. El sistema es 100% responsive y está optimizado para dispositivos móviles."
         }
       },
       {
@@ -107,114 +102,164 @@
 
   <link rel="stylesheet" href="../assets/css/styles.css" />
 </head>
-
 <body>
+  <div class="navbar-spacer"></div>
 
-    <!-- NAVBAR -->
-<div class="navbar-spacer"></div>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <div class="mobile-left">
+        <a href="/" class="logo-mobile">
+          <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" />
+        </a>
 
-<nav class="navbar" id="navbar">
-  <div class="navbar-container">
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
 
-    <!-- MOBILE LEFT -->
-    <div class="mobile-left">
-      <a href="/" class="logo-mobile">
-        <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
+      <a href="/" class="logo-desktop">
+        <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" />
       </a>
 
-      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link"> Inicio</a></li>
+        <li><a href="/software-para-concesionarios/" class="nav-link"> Software</a></li>
+        <li><a href="/funcionalidades/" class="nav-link"> Funcionalidades</a></li>
+        <li><a href="/web-para-concesionarios/" class="nav-link"> Web</a></li>
+        <li><a href="/planes/" class="nav-link"> Planes</a></li>
+        <li><a href="/preguntas-frecuentes/" class="nav-link active-link"> FAQ</a></li>
+        <li><a href="/contacto/" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <a href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20sobre%20Dromux" target="_blank" rel="noopener noreferrer" class="nav-cta">
+        Hablar con un asesor
+      </a>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-header">
+      <a href="/">
+        <img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" class="mobile-logo-img" />
+      </a>
+
+      <button class="close-btn" id="closeMenu" aria-label="Cerrar menú">
+        <i data-lucide="x"></i>
       </button>
     </div>
 
-    <!-- LOGO DESKTOP -->
-    <a href="/" class="logo-desktop">
-      <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
+    <div class="mobile-links">
+      <a href="/" class="mobile-link"> Inicio</a>
+      <a href="/software-para-concesionarios/" class="mobile-link"> Software</a>
+      <a href="/funcionalidades/" class="mobile-link"> Funcionalidades</a>
+      <a href="/web-para-concesionarios/" class="mobile-link"> Web</a>
+      <a href="/planes/" class="mobile-link"> Planes</a>
+      <a href="/preguntas-frecuentes/" class="mobile-link active-link"> FAQ</a>
+      <a href="/contacto/" class="mobile-link"> Contacto</a>
+    </div>
+
+    <a href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20sobre%20Dromux" target="_blank" rel="noopener noreferrer" class="mobile-menu-cta">
+      Hablar con un asesor
     </a>
-
-    <!-- MENU DESKTOP -->
-    <ul class="nav-menu">
-      <li><a href="/" class="nav-link"><i data-lucide="home"></i> Inicio</a></li>
-      <li><a href="/software-para-concesionarios/" class="nav-link"><i data-lucide="layers"></i> Software</a></li>
-      <li><a href="/funcionalidades/" class="nav-link"><i data-lucide="layers"></i> Funcionalidades</a></li>
-      <li><a href="/web-para-concesionarios/" class="nav-link"><i data-lucide="globe"></i> Web</a></li>
-      <li><a href="/planes/" class="nav-link"><i data-lucide="credit-card"></i> Planes</a></li>
-      <li><a href="/preguntas-frecuentes/" class="nav-link active-link"><i data-lucide="help-circle"></i> FAQ</a></li>
-      <li><a href="/contacto/" class="nav-link"><i data-lucide="phone"></i> Contacto</a></li>
-    </ul>
-
-  </div>
-</nav>
-
-<!-- OVERLAY -->
-<div class="mobile-overlay" id="mobileOverlay"></div>
-
-<!-- MOBILE MENU -->
-<div class="mobile-menu" id="mobileMenu">
-  <div class="mobile-header">
-    <a href="/">
-      <img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" class="mobile-logo-img">
-    </a>
-
-    <button class="close-btn" id="closeMenu">
-      <i data-lucide="x"></i>
-    </button>
   </div>
 
-  <div class="mobile-links">
-    <a href="/" class="mobile-link"><i data-lucide="home"></i> Inicio</a>
-    <a href="/software-para-concesionarios/" class="mobile-link"><i data-lucide="layers"></i> Software</a>
-    <a href="/funcionalidades/" class="mobile-link"><i data-lucide="layers"></i> Funcionalidades</a>
-    <a href="/web-para-concesionarios/" class="mobile-link"><i data-lucide="globe"></i> Web</a>
-    <a href="/planes/" class="mobile-link"><i data-lucide="credit-card"></i> Planes</a>
-    <a href="/preguntas-frecuentes/" class="mobile-link active-link"><i data-lucide="help-circle"></i> FAQ</a>
-    <a href="/contacto/" class="mobile-link"><i data-lucide="phone"></i> Contacto</a>
-  </div>
-</div>
+  <main class="pf-wrapper">
+    <section class="pf-hero reveal">
+      <div class="pf-hero-grid"></div>
+      <div class="pf-glow pf-glow-left"></div>
+      <div class="pf-glow pf-glow-right"></div>
 
-  <!-- HERO -->
-  <div class="pf-wrapper">
+      <div class="pf-container pf-hero-shell">
+        <div class="pf-hero-copy">
+          <span class="pf-badge">Centro de ayuda</span>
+          <h1>Preguntas frecuentes sobre Dromux</h1>
+          <p>
+            Respondemos dudas sobre precios, implementación, CRM automotor,
+            web automática y funcionamiento del sistema.
+          </p>
 
-    <section class="pf-hero">
-      <div class="pf-glow"></div>
+          <div class="pf-hero-proof">
+            <div class="pf-proof-card"><strong>Implementación rápida</strong><span>puesta en marcha en pocos días</span></div>
+            <div class="pf-proof-card"><strong>Soporte argentino</strong><span>acompañamiento real por WhatsApp</span></div>
+            <div class="pf-proof-card"><strong>Todo integrado</strong><span>stock, CRM, web y métricas en una sola plataforma</span></div>
+          </div>
+        </div>
 
-      <div class="pf-container pf-hero-content">
-        <span class="pf-badge">Centro de ayuda</span>
+        <div class="pf-hero-visual">
+          <div class="pf-dashboard-card pf-dashboard-main floating-card">
+            <div class="pf-topline"></div>
+            <div class="pf-dashboard-head">
+              <div>
+                <span class="mini-label">Respuestas rápidas</span>
+                <h3>Resolvé dudas antes de avanzar</h3>
+              </div>
+              <span class="status-pill">Disponible</span>
+            </div>
 
-        <h1>Preguntas frecuentes sobre Dromux</h1>
+            <div class="pf-metrics-grid">
+              <div class="pf-metric-card"><span>Planes</span><strong>Desde Impulso</strong></div>
+              <div class="pf-metric-card"><span>Implementación</span><strong>2 a 5 días hábiles</strong></div>
+              <div class="pf-metric-card wide"><span>Soporte</span><strong>Argentina · WhatsApp · reuniones virtuales</strong></div>
+            </div>
+          </div>
 
-        <p>
-          Respondemos dudas sobre precios, implementación, CRM automotor,
-          web automática y funcionamiento del sistema.
-        </p>
+          <div class="pf-dashboard-card pf-dashboard-mini pf-mini-a floating-card">
+            <i data-lucide="smartphone"></i>
+            <div><span class="mini-label">Responsive</span><strong>Celular, tablet y desktop</strong></div>
+          </div>
+
+          <div class="pf-dashboard-card pf-dashboard-mini pf-mini-b floating-card">
+            <i data-lucide="globe"></i>
+            <div><span class="mini-label">Web incluida</span><strong>Publicación automática y SEO</strong></div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- FAQ LIST -->
-    <section class="pf-section">
-      <div class="pf-container">
+    <section class="pf-section reveal">
+      <div class="pf-container pf-section-head centered-head narrow-head">
+        <span class="pf-kicker">FAQ</span>
+        <h2>Todo lo importante sobre el sistema, los planes y la implementación</h2>
+      </div>
+
+      <div class="pf-container pf-layout">
+        <aside class="pf-side-card premium-surface">
+          <h3>Antes de contratar</h3>
+          <p>
+            Estas son las dudas más comunes sobre Dromux. Si necesitás una respuesta puntual,
+            podés escribirnos y te orientamos según tu concesionaria.
+          </p>
+          <a
+            href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pf-side-btn"
+          >
+            Hablar con un asesor
+          </a>
+        </aside>
 
         <div class="pf-faq-list">
-
-          <!-- ITEM -->
-          <div class="pf-item">
-            <button class="pf-question">
+          <div class="pf-item active">
+            <button class="pf-question" aria-expanded="true">
               <span>¿Cuánto cuesta el software para concesionarios Dromux?</span>
-              <span class="pf-icon">+</span>
+              <span class="pf-icon">−</span>
             </button>
-            <div class="pf-answer">
+            <div class="pf-answer" style="max-height: 260px;">
               <div class="pf-answer-inner">
-                <p>• Planes desde $70.000 mensuales.</p>
-                <p>• Opción de pago único + mantenimiento.</p>
-                <p>• Implementación bonificada en la mayoría de los casos.</p>
+                <p>• El plan Impulso comienza desde $100.000 mensuales.</p>
+                <p>• También contamos con planes Expansión, Escala y Liderazgo.</p>
+                <p>• La implementación está bonificada en la mayoría de los casos.</p>
               </div>
             </div>
           </div>
 
           <div class="pf-item">
-            <button class="pf-question">
+            <button class="pf-question" aria-expanded="false">
               <span>¿El sistema incluye página web para mi concesionaria?</span>
               <span class="pf-icon">+</span>
             </button>
@@ -229,7 +274,7 @@
           </div>
 
           <div class="pf-item">
-            <button class="pf-question">
+            <button class="pf-question" aria-expanded="false">
               <span>¿Cuánto demora la implementación?</span>
               <span class="pf-icon">+</span>
             </button>
@@ -242,22 +287,22 @@
           </div>
 
           <div class="pf-item">
-            <button class="pf-question">
+            <button class="pf-question" aria-expanded="false">
               <span>¿Funciona desde celular o tablet?</span>
               <span class="pf-icon">+</span>
             </button>
             <div class="pf-answer">
               <div class="pf-answer-inner">
                 <p>Sí, el sistema es 100% responsive y optimizado para móviles.</p>
-                <p>• Dashboard oprimizado.</p>
-                <p>• Gestión de stock desde el movil.</p>
-                <p>Muchos vendedores trabajan desde el movil diariamente.</p>
+                <p>• Dashboard optimizado.</p>
+                <p>• Gestión de stock desde el móvil.</p>
+                <p>• Muchos vendedores trabajan desde el celular diariamente.</p>
               </div>
             </div>
           </div>
 
           <div class="pf-item">
-            <button class="pf-question">
+            <button class="pf-question" aria-expanded="false">
               <span>¿El software ayuda a mejorar la rentabilidad?</span>
               <span class="pf-icon">+</span>
             </button>
@@ -266,49 +311,52 @@
                 <p>Calcula rentabilidad real por vehículo y muestra métricas en tiempo real.</p>
                 <p>• Costos de compra + gastos.</p>
                 <p>• Margen de ventas.</p>
-                <p>• Reportes financieros en tiempo real</p>
+                <p>• Reportes financieros en tiempo real.</p>
               </div>
             </div>
           </div>
 
           <div class="pf-item">
-            <button class="pf-question">
+            <button class="pf-question" aria-expanded="false">
               <span>¿Ofrecen soporte en Argentina?</span>
               <span class="pf-icon">+</span>
             </button>
             <div class="pf-answer">
               <div class="pf-answer-inner">
                 <p>Soporte argentino de lunes a viernes de 8 a 19 hs vía WhatsApp.</p>
-                <p>• Whatsapp como canal principal.</p>
+                <p>• WhatsApp como canal principal.</p>
                 <p>• Reuniones por Meet o Zoom.</p>
               </div>
             </div>
           </div>
 
           <div class="pf-item">
-            <button class="pf-question">
+            <button class="pf-question" aria-expanded="false">
               <span>¿Qué diferencia a Dromux de otros sistemas?</span>
               <span class="pf-icon">+</span>
             </button>
             <div class="pf-answer">
               <div class="pf-answer-inner">
                 <p>Dromux está diseñado exclusivamente para concesionarios.</p>
-                <p>• No es un CRM genérico</p>
-                <p>• Integra stock + CRM + web + metricas.</p>
+                <p>• Trabajamos junto a nuestros clientes brindandole soluciones, si hay algo que no esta en el sistema lo implementamos.</p>
+                <p>• No es un CRM genérico.</p>
+                <p>• Integra stock + CRM + web + métricas.</p>
                 <p>• Pensado para agencias automotrices argentinas.</p>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="pf-cta">
-      <div class="pf-container">
+    <section class="pf-cta reveal">
+      <div class="pf-container pf-cta-box premium-surface premium-surface-strong">
+        <span class="pf-kicker pf-kicker-light">Seguimos acá</span>
         <h2>¿Necesitás una respuesta personalizada?</h2>
+        <p>
+          Si querés evaluar planes, implementación o funcionamiento según tu concesionaria,
+          te respondemos por WhatsApp.
+        </p>
         <a
           href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion"
           target="_blank"
@@ -319,161 +367,165 @@
         </a>
       </div>
     </section>
+  </main>
 
-  </div>
-  <!-- FOOTER -->
-<footer class="footer" id="contacto">
-  <div class="footer-container">
+  <footer class="footer" id="contacto">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Dromux</h3>
+        <p class="footer-description">
+          Dromux es un software para concesionarios en Argentina que te permite gestionar stock, ventas, clientes y rentabilidad desde un solo sistema.
+        </p>
+      </div>
 
-    <div class="footer-brand">
-      <h3 class="footer-logo">Dromux</h3>
-      <p class="footer-description">
-        Dromux es un software para concesionarios en Argentina que te permite gestionar stock, ventas, clientes y rentabilidad desde un solo sistema.
-      </p>
-    </div>
+      <div class="footer-contact">
+        <h4 class="footer-subtitle">Contacto</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i data-lucide="map-pin" class="footer-icon"></i>
+            <span>Oncativo, Córdoba, Argentina</span>
+          </li>
+          <li>
+            <i data-lucide="message-circle" class="footer-icon"></i>
+            <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer">
+              +54 9 3572 674920
+            </a>
+          </li>
+          <li>
+            <i data-lucide="mail" class="footer-icon"></i>
+            <a href="mailto:dromuxmotors@gmail.com">
+              dromuxmotors@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="footer-contact">
-      <h4 class="footer-subtitle">Contacto</h4>
-      <ul class="footer-contact-list">
-        <li>
-          <i data-lucide="map-pin" class="footer-icon"></i>
-          <span>Oncativo, Córdoba, Argentina</span>
-        </li>
-        <li>
-          <i data-lucide="message-circle" class="footer-icon"></i>
-          <a href="https://wa.me/5493572674920" target="_blank">
-            +54 9 3572 674920
-          </a>
-        </li>
-        <li>
-          <i data-lucide="mail" class="footer-icon"></i>
-          <a href="mailto:dromuxmotors@gmail.com">
-            dromuxmotors@gmail.com
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-social">
-      <h4 class="footer-subtitle">Seguinos</h4>
-      <div class="footer-social-icons">
-        <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank">
-          <i data-lucide="facebook" class="social-icon"></i>
-        </a>
-        <a href="https://www.instagram.com/dromux.motors/" target="_blank">
-          <i data-lucide="instagram" class="social-icon"></i>
-        </a>
-        <a href="https://wa.me/5493572674920" target="_blank">
-          <i data-lucide="message-circle" class="social-icon"></i>
-        </a>
+      <div class="footer-social">
+        <h4 class="footer-subtitle">Seguinos</h4>
+        <div class="footer-social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp social-icon"></i></a>
+        </div>
       </div>
     </div>
 
+    <div class="footer-bottom">
+      <p class="footer-copyright">
+        &copy; 2026 Dromux. Software para concesionarios en Argentina.
+      </p>
+    </div>
+  </footer>
+
+  <div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
+    <a
+      href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios."
+      class="whatsapp-fab__button"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Abrir chat de WhatsApp"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+        alt="WhatsApp"
+        class="whatsapp-fab__icon"
+        loading="lazy"
+      />
+      <span class="whatsapp-fab__pulse"></span>
+    </a>
+
+    <div class="whatsapp-fab__tooltip" id="waTooltip">
+      ¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong>
+    </div>
   </div>
 
-  <div class="footer-bottom">
-    <p class="footer-copyright">
-      &copy; 2026 Dromux. Software para concesionarios en Argentina.
-    </p>
-  </div>
-</footer>
-
-<!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
-<div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
-  <a
-    href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios."
-    class="whatsapp-fab__button"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Abrir chat de WhatsApp"
-  >
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
-      alt="WhatsApp"
-      class="whatsapp-fab__icon"
-      loading="lazy"
-    />
-    <span class="whatsapp-fab__pulse"></span>
-  </a>
-
-  <div class="whatsapp-fab__tooltip" id="waTooltip">
-    ¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong>
-  </div>
-</div>
-
-<script>
-  window.addEventListener("load", function () {
-    const tooltip = document.getElementById("waTooltip");
-
-    setTimeout(() => {
-      tooltip.classList.add("is-visible");
-    }, 1000);
-
-    setTimeout(() => {
-      tooltip.classList.remove("is-visible");
-    }, 5500);
-  });
-</script>
-
-<script>
-  lucide.createIcons();
-</script>
-<script>
-  const navbar = document.getElementById("navbar");
-  const hamburger = document.getElementById("hamburger");
-  const mobileMenu = document.getElementById("mobileMenu");
-  const mobileOverlay = document.getElementById("mobileOverlay");
-  const closeMenu = document.getElementById("closeMenu");
-
-  // Scroll effect
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 20) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
-    }
-  });
-
-  // Open menu
-  hamburger.addEventListener("click", () => {
-    mobileMenu.classList.add("active");
-    mobileOverlay.classList.add("active");
-  });
-
-  // Close menu
-  function closeMobileMenu() {
-    mobileMenu.classList.remove("active");
-    mobileOverlay.classList.remove("active");
-  }
-
-  mobileOverlay.addEventListener("click", closeMobileMenu);
-  closeMenu.addEventListener("click", closeMobileMenu);
-</script>
-
-  <!-- JS Acordeón -->
   <script>
-    document.querySelectorAll(".pf-question").forEach(button => {
+    window.addEventListener("load", function () {
+      const tooltip = document.getElementById("waTooltip");
+
+      setTimeout(() => {
+        tooltip.classList.add("is-visible");
+      }, 1000);
+
+      setTimeout(() => {
+        tooltip.classList.remove("is-visible");
+      }, 5500);
+    });
+  </script>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <script>
+    const navbar = document.getElementById("navbar");
+    const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const mobileOverlay = document.getElementById("mobileOverlay");
+    const closeMenu = document.getElementById("closeMenu");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 20) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+
+    hamburger?.addEventListener("click", () => {
+      mobileMenu.classList.add("active");
+      mobileOverlay.classList.add("active");
+      document.body.style.overflow = "hidden";
+    });
+
+    function closeMobileMenu() {
+      mobileMenu.classList.remove("active");
+      mobileOverlay.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+
+    mobileOverlay?.addEventListener("click", closeMobileMenu);
+    closeMenu?.addEventListener("click", closeMobileMenu);
+  </script>
+
+  <script>
+    const faqButtons = document.querySelectorAll(".pf-question");
+
+    faqButtons.forEach((button) => {
       button.addEventListener("click", () => {
         const item = button.parentElement;
         const answer = item.querySelector(".pf-answer");
         const icon = button.querySelector(".pf-icon");
-
         const isActive = item.classList.contains("active");
 
-        document.querySelectorAll(".pf-item").forEach(el => {
+        document.querySelectorAll(".pf-item").forEach((el) => {
           el.classList.remove("active");
           el.querySelector(".pf-answer").style.maxHeight = null;
           el.querySelector(".pf-icon").textContent = "+";
+          el.querySelector(".pf-question").setAttribute("aria-expanded", "false");
         });
 
         if (!isActive) {
           item.classList.add("active");
           answer.style.maxHeight = answer.scrollHeight + "px";
           icon.textContent = "−";
+          button.setAttribute("aria-expanded", "true");
         }
       });
     });
   </script>
 
+  <script>
+    const elements = document.querySelectorAll(".reveal");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.12 });
+
+    elements.forEach((el) => observer.observe(el));
+  </script>
 </body>
 </html>

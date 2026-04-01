@@ -6,39 +6,39 @@
 
   <title>Contacto | Software para Concesionarios Dromux Argentina</title>
 
-  <meta name="description" content="Contactá con Dromux, el software para concesionarios en Argentina. Agendá una demo, solicitá presupuesto o recibí asesoramiento personalizado para tu agencia automotriz.">
+  <meta
+    name="description"
+    content="Contactá con Dromux, el software para concesionarios en Argentina. Agendá una demo, solicitá presupuesto o recibí asesoramiento personalizado para tu agencia automotriz."
+  >
 
-  <link rel="canonical" href="https://dromux.com/contacto">
-
+  <link rel="canonical" href="https://dromux.com/contacto/">
   <meta name="robots" content="index, follow">
 
   <link rel="icon" type="image/png" href="/assets/img/dromux.png">
 
-  <!-- ========================= -->
-  <!-- Google Analytics (GA4)   -->
-  <!-- ========================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T2SFS3BCJ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-1T2SFS3BCJ');
   </script>
 
-  <!-- ========================= -->
-
-
-  <!-- Open Graph -->
   <meta property="og:title" content="Software para Concesionarios en Argentina | Dromux">
   <meta property="og:description" content="Sistema de gestión automotor para concesionarias. Controlá stock, leads y rentabilidad en tiempo real.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.dromux.com/contacto">
   <meta property="og:image" content="https://www.dromux.com/og-contacto.png">
 
-  <!-- Schema ContactPage -->
-   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -60,281 +60,413 @@
 </head>
 
 <body>
+  <div class="navbar-spacer"></div>
 
-          <!-- NAVBAR -->
-<div class="navbar-spacer"></div>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <div class="mobile-left">
+        <a href="/" class="logo-mobile">
+          <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
+        </a>
 
-<nav class="navbar" id="navbar">
-  <div class="navbar-container">
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
 
-    <!-- MOBILE LEFT -->
-    <div class="mobile-left">
-      <a href="/" class="logo-mobile">
+      <a href="/" class="logo-desktop">
         <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
       </a>
 
-      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link"> Inicio</a></li>
+        <li><a href="/software-para-concesionarios/" class="nav-link"> Software</a></li>
+        <li><a href="/funcionalidades/" class="nav-link"> Funcionalidades</a></li>
+        <li><a href="/web-para-concesionarios/" class="nav-link"> Web</a></li>
+        <li><a href="/planes/" class="nav-link">Planes</a></li>
+        <li><a href="/preguntas-frecuentes/" class="nav-link"> FAQ</a></li>
+        <li><a href="/contacto/" class="nav-link active-link"> Contacto</a></li>
+      </ul>
+
+      <a
+        href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20sobre%20Dromux"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="nav-cta"
+      >
+        Hablar con un asesor
+      </a>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-header">
+      <a href="/">
+        <img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" class="mobile-logo-img">
+      </a>
+
+      <button class="close-btn" id="closeMenu" aria-label="Cerrar menú">
+        <i data-lucide="x"></i>
       </button>
     </div>
 
-    <!-- LOGO DESKTOP -->
-    <a href="/" class="logo-desktop">
-      <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios">
+    <div class="mobile-links">
+      <a href="/" class="mobile-link"> Inicio</a>
+      <a href="/software-para-concesionarios/" class="mobile-link"> Software</a>
+      <a href="/funcionalidades/" class="mobile-link"> Funcionalidades</a>
+      <a href="/web-para-concesionarios/" class="mobile-link"> Web</a>
+      <a href="/planes/" class="mobile-link"> Planes</a>
+      <a href="/preguntas-frecuentes/" class="mobile-link"> FAQ</a>
+      <a href="/contacto/" class="mobile-link active-link"> Contacto</a>
+    </div>
+
+    <a
+      href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20sobre%20Dromux"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mobile-menu-cta"
+    >
+      Hablar con un asesor
     </a>
-
-    <!-- MENU DESKTOP -->
-    <ul class="nav-menu">
-      <li><a href="/" class="nav-link"><i data-lucide="home"></i> Inicio</a></li>
-      <li><a href="/software-para-concesionarios/" class="nav-link"><i data-lucide="layers"></i> Software</a></li>
-      <li><a href="/funcionalidades/" class="nav-link"><i data-lucide="layers"></i> Funcionalidades</a></li>
-      <li><a href="/web-para-concesionarios/" class="nav-link"><i data-lucide="globe"></i> Web</a></li>
-      <li><a href="/planes/" class="nav-link"><i data-lucide="credit-card"></i> Planes</a></li>
-      <li><a href="/preguntas-frecuentes/" class="nav-link"><i data-lucide="help-circle"></i> FAQ</a></li>
-      <li><a href="/contacto/" class="nav-link active-link"><i data-lucide="phone"></i> Contacto</a></li>
-    </ul>
-
-  </div>
-</nav>
-
-<!-- OVERLAY -->
-<div class="mobile-overlay" id="mobileOverlay"></div>
-
-<!-- MOBILE MENU -->
-<div class="mobile-menu" id="mobileMenu">
-  <div class="mobile-header">
-    <a href="/">
-      <img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" class="mobile-logo-img">
-    </a>
-
-    <button class="close-btn" id="closeMenu">
-      <i data-lucide="x"></i>
-    </button>
   </div>
 
-  <div class="mobile-links">
-    <a href="/" class="mobile-link"><i data-lucide="home"></i> Inicio</a>
-    <a href="/software-para-concesionarios/" class="mobile-link"><i data-lucide="layers"></i> Software</a>
-    <a href="/funcionalidades/" class="mobile-link"><i data-lucide="layers"></i> Funcionalidades</a>
-    <a href="/web-para-concesionarios/" class="mobile-link"><i data-lucide="globe"></i> Web</a>
-    <a href="/planes/" class="mobile-link"><i data-lucide="credit-card"></i> Planes</a>
-    <a href="/preguntas-frecuentes/" class="mobile-link"><i data-lucide="help-circle"></i> FAQ</a>
-    <a href="/contacto/" class="mobile-link active-link"><i data-lucide="phone"></i> Contacto</a>
-  </div>
-</div>
+  <main class="contact-wrapper">
+    <section class="contact-hero reveal">
+      <div class="contact-hero-grid"></div>
+      <div class="contact-glow contact-glow-left"></div>
+      <div class="contact-glow contact-glow-right"></div>
 
-  <!-- HERO -->
-  <section class="contact-hero">
-    <div class="contact-container">
-      <span class="contact-badge">Contacto directo</span>
-      <h1>Hablemos sobre tu concesionaria</h1>
-      <p>
-        Agendá una demo personalizada y descubrí cómo aumentar tus ventas,
-        ordenar tu stock y profesionalizar tu concesionaria en pocos días.
+      <div class="contact-container contact-hero-shell">
+        <div class="contact-hero-copy">
+          <span class="contact-badge">Contacto directo</span>
+
+          <h1>Hablemos sobre tu concesionaria</h1>
+
+          <p>
+            Agendá una demo personalizada y descubrí cómo aumentar tus ventas,
+            ordenar tu stock y profesionalizar tu concesionaria en pocos días.
+          </p>
+
+          <div class="contact-hero-proof">
+            <div class="contact-proof-card">
+              <strong>Asesoramiento real</strong>
+              <span>pensado para concesionarios en Argentina</span>
+            </div>
+
+            <div class="contact-proof-card">
+              <strong>Respuesta rápida</strong>
+              <span>WhatsApp directo y contacto personalizado</span>
+            </div>
+
+            <div class="contact-proof-card">
+              <strong>Implementación clara</strong>
+              <span>te mostramos el sistema según tu operación</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-hero-visual">
+          <div class="contact-dashboard-card contact-dashboard-main floating-card">
+            <div class="contact-topline"></div>
+
+            <div class="contact-dashboard-head">
+              <div>
+                <span class="mini-label">Demo personalizada</span>
+                <h3>Tu concesionaria, tu contexto, tu proceso</h3>
+              </div>
+              <span class="status-pill">Disponible</span>
+            </div>
+
+            <div class="contact-metrics-grid">
+              <div class="contact-metric-card">
+                <span>Canal principal</span>
+                <strong>WhatsApp directo</strong>
+              </div>
+
+              <div class="contact-metric-card">
+                <span>Enfoque</span>
+                <strong>Ventas + orden + rentabilidad</strong>
+              </div>
+
+              <div class="contact-metric-card wide">
+                <span>Objetivo</span>
+                <strong>Mostrarte cómo se adapta Dromux a tu concesionaria</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-dashboard-card contact-dashboard-mini contact-mini-a floating-card">
+            <i data-lucide="phone-call"></i>
+            <div>
+              <span class="mini-label">Contacto</span>
+              <strong>+54 9 3572 674920</strong>
+            </div>
+          </div>
+
+          <div class="contact-dashboard-card contact-dashboard-mini contact-mini-b floating-card">
+            <i data-lucide="message-circle"></i>
+            <div>
+              <span class="mini-label">Canal rápido</span>
+              <strong>WhatsApp y reuniones virtuales</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section reveal">
+      <div class="contact-container contact-grid">
+        <div class="contact-card premium-surface">
+          <div class="contact-card-head">
+            <span class="contact-kicker">Formulario rápido</span>
+            <h2>Solicitar información</h2>
+            <p>Contanos brevemente tu situación y te respondemos con una propuesta acorde.</p>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input type="text" name="nombre" id="nombre" required placeholder=" ">
+              <label for="nombre">Nombre y apellido</label>
+            </div>
+
+            <div class="form-group">
+              <input type="text" name="concesionario" id="concesionario" required placeholder=" ">
+              <label for="concesionario">Nombre del concesionario</label>
+            </div>
+
+            <div class="form-group">
+              <textarea name="mensaje" id="mensaje" rows="5" required placeholder=" "></textarea>
+              <label for="mensaje">Contanos brevemente tu situación...</label>
+            </div>
+
+            <button type="submit" class="contact-submit-btn">
+              Enviar consulta
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-side">
+          <div class="contact-card premium-surface">
+            <div class="contact-card-head">
+              <span class="contact-kicker">Canales de contacto</span>
+              <h2>Hablemos por el canal que prefieras</h2>
+            </div>
+
+            <div class="contact-info-list">
+              <a
+                class="contact-info-item contact-info-link"
+                href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20sobre%20el%20software%20para%20concesionarios"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="contact-info-icon">
+                  <i data-lucide="message-circle"></i>
+                </div>
+                <div>
+                  <strong>WhatsApp directo</strong>
+                  <span>Canal más rápido para consultas</span>
+                </div>
+              </a>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div>
+                  <strong>Teléfono</strong>
+                  <span>+54 9 3572 674920</span>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div>
+                  <strong>Email</strong>
+                  <span>dromuxmotors@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div>
+                  <strong>Ubicación</strong>
+                  <span>Argentina</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-note">
+              Soporte especializado para concesionarios en todo el país.
+            </div>
+          </div>
+
+          <div class="contact-card premium-surface premium-surface-strong">
+            <div class="contact-mini-cta">
+              <span class="contact-kicker contact-kicker-light">Demo personalizada</span>
+              <h3>¿Querés verlo funcionando?</h3>
+              <p>Agendamos una reunión y te mostramos cómo Dromux puede ordenar tu operación.</p>
+
+              <a
+                href="https://wa.me/5493572674920?text=Hola%20quiero%20agendar%20una%20reunion"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-btn"
+              >
+                Agendar una reunion
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-cta reveal">
+      <div class="contact-container contact-cta-box premium-surface premium-surface-strong">
+        <span class="contact-kicker contact-kicker-light">Siguiente paso</span>
+        <h2>¿Listo para modernizar tu concesionario?</h2>
+        <p>
+          Agendá una reunión y evaluamos juntos cómo implementar Dromux en tu operación.
+        </p>
+
+        <a
+          href="https://wa.me/5493572674920?text=Hola%20quiero%20agendar%20una%20reunion"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-btn"
+        >
+          Agendar una reunion ahora
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Dromux</h3>
+        <p class="footer-description">
+          Dromux es un software para concesionarios en Argentina que te permite gestionar stock, ventas, clientes y rentabilidad desde un solo sistema.
+        </p>
+      </div>
+
+      <div class="footer-contact">
+        <h4 class="footer-subtitle">Contacto</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i data-lucide="map-pin" class="footer-icon"></i>
+            <span>Oncativo, Córdoba, Argentina</span>
+          </li>
+          <li>
+            <i data-lucide="message-circle" class="footer-icon"></i>
+            <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer">
+              +54 9 3572 674920
+            </a>
+          </li>
+          <li>
+            <i data-lucide="mail" class="footer-icon"></i>
+            <a href="mailto:dromuxmotors@gmail.com">
+              dromuxmotors@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4 class="footer-subtitle">Seguinos</h4>
+        <div class="footer-social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp social-icon"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copyright">
+        &copy; 2026 Dromux. Software para concesionarios en Argentina.
       </p>
     </div>
-  </section>
+  </footer>
 
-  <!-- CONTACT GRID -->
-  <section class="contact-section">
-    <div class="contact-container contact-grid">
+  <div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
+    <a
+      href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios."
+      class="whatsapp-fab__button"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Abrir chat de WhatsApp"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+        alt="WhatsApp"
+        class="whatsapp-fab__icon"
+        loading="lazy"
+      />
+      <span class="whatsapp-fab__pulse"></span>
+    </a>
 
-      <!-- FORMULARIO -->
-      <div class="contact-card">
-        <h2>Solicitar información</h2>
-
-        <form id="contactForm" class="contact-form">
-          <div class="form-group">
-            <input type="text" name="nombre" required>
-            <label>Nombre y apellido</label>
-          </div>
-
-          <div class="form-group">
-            <input type="text" name="concesionario" required>
-            <label>Nombre del concesionario</label>
-          </div>
-
-          <div class="form-group">
-            <textarea name="mensaje" rows="4" required></textarea>
-            <label>Contanos brevemente tu situación...</label>
-          </div>
-
-          <button type="submit">Enviar consulta</button>
-        </form>
-      </div>
-
-      <!-- INFO LATERAL -->
-      <div class="contact-card">
-        <h2>Canales de contacto</h2>
-
-        <div class="contact-info-item">
-          <i data-lucide="MessageCircle"></i>
-          <a href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20sobre%20el%20software%20para%20concesionarios" target="_blank">
-            WhatsApp directo
-          </a>
-        </div>
-
-        <div class="contact-info-item">
-          <i data-lucide="Phone"></i><span> +54 9 3572 674920</span>
-        </div>
-
-        <div class="contact-info-item">
-          <i data-lucide="mail"></i> <span> dromuxmotors@gmail.com</span>
-        </div>
-
-        <div class="contact-info-item">
-          <i data-lucide="map-pin"></i> <span> Argentina</span>
-        </div>
-
-        <div class="contact-note">
-          Soporte especializado para concesionarios en todo el país.
-        </div>
-      </div>
-
+    <div class="whatsapp-fab__tooltip" id="waTooltip">
+      ¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong>
     </div>
-  </section>
-
-  <!-- CTA FINAL -->
-  <section class="contact-cta">
-    <div class="contact-container">
-      <h2>¿Listo para modernizar tu concesionario?</h2>
-      <a href="https://wa.me/5493572674920?text=Hola%20quiero%20agendar%20una%20reunion" target="_blank" class="contact-btn">
-        Agendar una reunion ahora
-      </a>
-    </div>
-  </section>
-  <!-- FOOTER -->
-<footer class="footer" id="contacto">
-  <div class="footer-container">
-
-    <div class="footer-brand">
-      <h3 class="footer-logo">Dromux</h3>
-      <p class="footer-description">
-        Dromux es un software para concesionarios en Argentina que te permite gestionar stock, ventas, clientes y rentabilidad desde un solo sistema.
-      </p>
-    </div>
-
-    <div class="footer-contact">
-      <h4 class="footer-subtitle">Contacto</h4>
-      <ul class="footer-contact-list">
-        <li>
-          <i data-lucide="map-pin" class="footer-icon"></i>
-          <span>Oncativo, Córdoba, Argentina</span>
-        </li>
-        <li>
-          <i data-lucide="message-circle" class="footer-icon"></i>
-          <a href="https://wa.me/5493572674920" target="_blank">
-            +54 9 3572 674920
-          </a>
-        </li>
-        <li>
-          <i data-lucide="mail" class="footer-icon"></i>
-          <a href="mailto:dromuxmotors@gmail.com">
-            dromuxmotors@gmail.com
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-social">
-      <h4 class="footer-subtitle">Seguinos</h4>
-      <div class="footer-social-icons">
-        <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank">
-          <i data-lucide="facebook" class="social-icon"></i>
-        </a>
-        <a href="https://www.instagram.com/dromux.motors/" target="_blank">
-          <i data-lucide="instagram" class="social-icon"></i>
-        </a>
-        <a href="https://wa.me/5493572674920" target="_blank">
-          <i data-lucide="message-circle" class="social-icon"></i>
-        </a>
-      </div>
-    </div>
-
   </div>
 
-  <div class="footer-bottom">
-    <p class="footer-copyright">
-      &copy; 2026 Dromux. Software para concesionarios en Argentina.
-    </p>
-  </div>
-</footer>
+  <script>
+    window.addEventListener("load", function () {
+      const tooltip = document.getElementById("waTooltip");
 
-<!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
-<div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
-  <a
-    href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios."
-    class="whatsapp-fab__button"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Abrir chat de WhatsApp"
-  >
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
-      alt="WhatsApp"
-      class="whatsapp-fab__icon"
-      loading="lazy"
-    />
-    <span class="whatsapp-fab__pulse"></span>
-  </a>
+      setTimeout(() => {
+        tooltip.classList.add("is-visible");
+      }, 1000);
 
-  <div class="whatsapp-fab__tooltip" id="waTooltip">
-    ¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong>
-  </div>
-</div>
+      setTimeout(() => {
+        tooltip.classList.remove("is-visible");
+      }, 5500);
+    });
+  </script>
 
-<script>
-  window.addEventListener("load", function () {
-    const tooltip = document.getElementById("waTooltip");
+  <script>
+    lucide.createIcons();
+  </script>
 
-    setTimeout(() => {
-      tooltip.classList.add("is-visible");
-    }, 1000);
+  <script>
+    const navbar = document.getElementById("navbar");
+    const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const mobileOverlay = document.getElementById("mobileOverlay");
+    const closeMenu = document.getElementById("closeMenu");
 
-    setTimeout(() => {
-      tooltip.classList.remove("is-visible");
-    }, 5500);
-  });
-</script>
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 20) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
 
-<script>
-  lucide.createIcons();
-</script>
-<script>
-  const navbar = document.getElementById("navbar");
-  const hamburger = document.getElementById("hamburger");
-  const mobileMenu = document.getElementById("mobileMenu");
-  const mobileOverlay = document.getElementById("mobileOverlay");
-  const closeMenu = document.getElementById("closeMenu");
+    hamburger?.addEventListener("click", () => {
+      mobileMenu.classList.add("active");
+      mobileOverlay.classList.add("active");
+      document.body.style.overflow = "hidden";
+    });
 
-  // Scroll effect
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 20) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
+    function closeMobileMenu() {
+      mobileMenu.classList.remove("active");
+      mobileOverlay.classList.remove("active");
+      document.body.style.overflow = "";
     }
-  });
 
-  // Open menu
-  hamburger.addEventListener("click", () => {
-    mobileMenu.classList.add("active");
-    mobileOverlay.classList.add("active");
-  });
+    mobileOverlay?.addEventListener("click", closeMobileMenu);
+    closeMenu?.addEventListener("click", closeMobileMenu);
+  </script>
 
-  // Close menu
-  function closeMobileMenu() {
-    mobileMenu.classList.remove("active");
-    mobileOverlay.classList.remove("active");
-  }
-
-  mobileOverlay.addEventListener("click", closeMobileMenu);
-  closeMenu.addEventListener("click", closeMobileMenu);
-</script>
-
-  <!-- SCRIPT -->
   <script>
     const form = document.getElementById("contactForm");
 
@@ -353,10 +485,21 @@ Concesionario: ${concesionario}
 Mensaje: ${mensajeUsuario}`;
 
       const url = `https://wa.me/5493572674920?text=${encodeURIComponent(mensaje)}`;
-
       window.open(url, "_blank");
     });
   </script>
 
+  <script>
+    const elements = document.querySelectorAll(".reveal");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.12 });
+
+    elements.forEach((el) => observer.observe(el));
+  </script>
 </body>
 </html>
