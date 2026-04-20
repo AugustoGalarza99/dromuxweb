@@ -1,9 +1,0 @@
-.container,
-.navbar-container,
-.features-home-container,
-.before-after-container,
-.planes-home-container,
-.footer-container {
-  width: min(var(--container), calc(100% - 2rem));
-  margin-inline: auto;
-}

@@ -314,7 +314,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero h1 {
   margin: 18px 0 16px;
   max-width: 780px;
-  font-size: clamp(3rem, 7vw, 6.4rem);
+  font-size: clamp(3rem, 7vw, 3.8rem);
   line-height: .92;
   letter-spacing: -.055em;
   font-weight: 800;
@@ -324,7 +324,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   margin: 0;
   max-width: 720px;
   color: var(--muted);
-  font-size: clamp(1.02rem, 1.85vw, 1.22rem);
+  font-size: clamp(1.02rem, 1.85vw, 1.2rem);
   line-height: 1.9;
 }
 .hero-cta {
@@ -956,7 +956,7 @@ section { padding: 92px 0; }
 @media (max-width: 768px) {
   section { padding: 74px 0; }
   .hero { min-height: calc(88vh - var(--nav-h)); }
-  .hero h1 { font-size: clamp(2.7rem, 11vw, 4.2rem); }
+  .hero h1 { font-size: clamp(2.7rem, 11vw, 2.8rem); }
   .hero p { font-size: 1rem; }
   .hero-cta { flex-direction: column; }
   .btn,
@@ -1220,7 +1220,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .ds-hero-copy h1 {
   margin: 18px 0 16px;
   max-width: 780px;
-  font-size: clamp(3rem, 7vw, 5.8rem);
+  font-size: clamp(3rem, 7vw, 3.8rem);
   line-height: .93;
   letter-spacing: -.055em;
   font-weight: 800;
@@ -1230,7 +1230,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   margin: 0;
   max-width: 720px;
   color: var(--muted);
-  font-size: clamp(1.02rem, 1.85vw, 1.22rem);
+  font-size: clamp(1.02rem, 1.85vw, 1.2rem);
   line-height: 1.9;
 }
 .ds-buttons {
@@ -1728,7 +1728,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .ds-section,
   .ds-cta { padding: 74px 0; }
   .ds-hero { min-height: calc(88vh - var(--nav-h)); }
-  .ds-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 4.2rem); }
+  .ds-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 4.8rem); }
   .ds-hero-copy p { font-size: 1rem; }
   .ds-buttons { flex-direction: column; }
   .ds-btn,
@@ -1989,7 +1989,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .df-hero-copy h1 {
   margin: 18px 0 16px;
   max-width: 780px;
-  font-size: clamp(3rem, 7vw, 5.8rem);
+  font-size: clamp(3rem, 7vw, 3.8rem);
   line-height: .93;
   letter-spacing: -.055em;
   font-weight: 800;
@@ -1999,7 +1999,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   margin: 0;
   max-width: 720px;
   color: var(--muted);
-  font-size: clamp(1.02rem, 1.85vw, 1.22rem);
+  font-size: clamp(1.02rem, 1.85vw, 1.2rem);
   line-height: 1.9;
 }
 .df-hero-cta,
@@ -2557,7 +2557,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .df-cta,
   .featureh-highlight { padding: 74px 0; }
   .df-hero { min-height: calc(88vh - var(--nav-h)); }
-  .df-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 4.2rem); }
+  .df-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 2.8rem); }
   .df-hero-copy p { font-size: 1rem; }
   .df-hero-cta,
   .df-buttons { flex-direction: column; }
@@ -2882,7 +2882,7 @@ a {
 .dw-hero-copy h1 {
   margin: 18px 0 16px;
   max-width: 780px;
-  font-size: clamp(3rem, 7vw, 5.8rem);
+  font-size: clamp(3rem, 7vw, 3.8rem);
   line-height: 0.93;
   letter-spacing: -0.055em;
   font-weight: 800;
@@ -2893,7 +2893,7 @@ a {
   margin: 0;
   max-width: 720px;
   color: var(--muted);
-  font-size: clamp(1.02rem, 1.85vw, 1.22rem);
+  font-size: clamp(1.02rem, 1.85vw, 1.2rem);
   line-height: 1.9;
 }
 
@@ -3629,7 +3629,7 @@ a {
   }
 
   .dw-hero-copy h1 {
-    font-size: clamp(2.7rem, 11vw, 4.2rem);
+    font-size: clamp(2.7rem, 11vw, 2.8rem);
   }
 
   .dw-hero-copy p {
@@ -3914,7 +3914,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .planes-hero-copy h1 {
   margin: 18px 0 16px;
   max-width: 760px;
-  font-size: clamp(3rem, 7vw, 5.7rem);
+  font-size: clamp(3rem, 7vw, 3.8rem);
   line-height: .93;
   letter-spacing: -.055em;
   font-weight: 800;
@@ -4119,7 +4119,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   background: linear-gradient(135deg, #edf4ff, #b8d2ff);
   color: var(--primary-dark);
 }
-.planes-card-header { margin-bottom: 20px; padding-right: 86px; }
+.planes-card-header { margin-bottom: 20px;  }
 .planes-name {
   margin: 0 0 8px;
   font-size: 1.65rem;
@@ -4469,7 +4469,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 768px) {
   .planes-section { padding: 74px 0; }
   .planes-hero { min-height: calc(88vh - var(--nav-h)); }
-  .planes-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 4.2rem); }
+  .planes-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 2.8rem); }
   .planes-hero-copy p { font-size: 1rem; }
   .planes-hero-actions { flex-direction: column; }
   .nav-cta, .mobile-menu-cta, .plans-btn, .planes-cta { width: 100%; }
@@ -4713,7 +4713,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .pf-hero-copy h1 {
   margin: 18px 0 16px;
   max-width: 760px;
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(3rem, 7vw, 3.8rem);
   line-height: .93;
   letter-spacing: -.055em;
   font-weight: 800;
@@ -5206,7 +5206,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 768px) {
   .pf-section, .pf-cta { padding: 74px 0; }
   .pf-hero { min-height: calc(88vh - var(--nav-h)); }
-  .pf-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 4.2rem); }
+  .pf-hero-copy h1 { font-size: clamp(2.7rem, 11vw, 2.8rem); }
   .pf-hero-copy p { font-size: 1rem; }
   .nav-cta, .mobile-menu-cta, .pf-btn, .pf-side-btn { width: 100%; }
   .premium-surface, .premium-surface-strong, .pf-side-card, .pf-item { border-radius: 24px; }
@@ -5492,7 +5492,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .contact-hero-copy h1 {
   margin: 18px 0 16px;
   max-width: 760px;
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(3rem, 7vw, 3.8rem);
   line-height: .93;
   letter-spacing: -.055em;
   font-weight: 800;
@@ -6226,7 +6226,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   }
 
   .contact-hero-copy h1 {
-    font-size: clamp(2.7rem, 11vw, 4.2rem);
+    font-size: clamp(2.7rem, 11vw, 2.8rem);
   }
 
   .contact-hero-copy p {
