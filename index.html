@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Software para Concesionarios en Argentina | Sistema de Gestión Automotor | Dromux</title>
-  <meta name="description" content="Dromux es el software para concesionarios en Argentina que centraliza stock, leads, ventas y reportes en un solo sistema. Automatizá tu concesionaria y aumentá tu rentabilidad." />
-  <meta name="robots" content="index, follow" />
+
+  <title>Software para Concesionarios en Argentina | Dromux</title>
+  <meta name="description" content="Dromux es un software para concesionarios y agencias de autos que centraliza stock, CRM, ventas, rentabilidad, tesorería, gestoría y tu página web en una sola plataforma." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="Dromux" />
+  <meta name="theme-color" content="#050816" />
   <link rel="canonical" href="https://dromux.com/" />
   <link rel="icon" type="image/png" href="/assets/img/dromux.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/home.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-  <meta property="og:title" content="Software para Concesionarios en Argentina | Dromux" />
-  <meta property="og:description" content="Sistema de gestión automotor profesional para concesionarias." />
+  <meta property="og:locale" content="es_AR" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.dromux.com/" />
-  <meta property="og:image" content="https://www.dromux.com/og-image-home.png" />
+  <meta property="og:site_name" content="Dromux" />
+  <meta property="og:title" content="Software para Concesionarios en Argentina | Dromux" />
+  <meta property="og:description" content="Gestioná stock, leads, ventas, rentabilidad, tesorería, gestoría y tu web desde una sola plataforma para concesionarios." />
+  <meta property="og:url" content="https://dromux.com/" />
+  <meta property="og:image" content="https://dromux.com/og-image-home.png" />
+  <meta property="og:image:alt" content="Dromux, software de gestión para concesionarios" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Software para Concesionarios en Argentina | Dromux" />
-  <meta name="twitter:description" content="Automatizá tu concesionaria con un sistema profesional de gestión automotor." />
-  <meta name="twitter:image" content="https://www.dromux.com/og-image-home.png" />
+  <meta name="twitter:description" content="Todo el concesionario conectado: stock, CRM, ventas, finanzas, gestoría y página web." />
+  <meta name="twitter:image" content="https://dromux.com/og-image-home.png" />
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T2SFS3BCJ"></script>
   <script>
@@ -35,62 +42,74 @@
   </script>
 
   <script src="https://unpkg.com/lucide@latest"></script>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Dromux",
-    "url": "https://www.dromux.com/",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "description": "Software para concesionarios en Argentina que permite gestionar stock, ventas, leads y rentabilidad en tiempo real.",
-    "areaServed": {
-      "@type": "Country",
-      "name": "Argentina"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "Dromux",
-      "url": "https://www.dromux.com/"
-    },
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "ARS",
-      "availability": "https://schema.org/InStock"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dromux.com/#organization",
+        "name": "Dromux",
+        "url": "https://dromux.com/",
+        "logo": "https://dromux.com/assets/img/dromux.png",
+        "email": "dromuxmotors@gmail.com",
+        "telephone": "+54 9 3572 674920",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Oncativo",
+          "addressRegion": "Córdoba",
+          "addressCountry": "AR"
+        },
+        "sameAs": [
+          "https://www.instagram.com/dromux.motors/",
+          "https://www.facebook.com/profile.php?id=61570872520576"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dromux.com/#website",
+        "url": "https://dromux.com/",
+        "name": "Dromux",
+        "inLanguage": "es-AR",
+        "publisher": { "@id": "https://dromux.com/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://dromux.com/#software",
+        "name": "Dromux",
+        "url": "https://dromux.com/",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Software para concesionarios",
+        "operatingSystem": "Web",
+        "inLanguage": "es-AR",
+        "description": "Software de gestión para concesionarios y agencias de autos que centraliza stock, CRM, ventas, rentabilidad, tesorería, gestoría y página web.",
+        "provider": { "@id": "https://dromux.com/#organization" },
+        "areaServed": [
+          { "@type": "Country", "name": "Argentina" },
+          { "@type": "Country", "name": "Uruguay" }
+        ]
+      }
+    ]
   }
   </script>
 </head>
-<body>
-  <div id="premium-loader" class="premium-loader">
-    <div class="loader-orb loader-orb-1"></div>
-    <div class="loader-orb loader-orb-2"></div>
-    <div class="loader-panel">
-      <img src="/assets/img/dromux-blanco.png" alt="Dromux" class="loader-logo" />
-      <p class="loader-kicker">Software para concesionarios</p>
-      <h2 class="loader-title">Potenciando concesionarios digitales</h2>
-      <p class="loader-subtitle">Publicá, gestioná y vendé más vehículos con Dromux</p>
-      <div class="loader-progress"><span></span></div>
-    </div>
-  </div>
-
+<body class="home-v2">
   <header>
     <div class="navbar-spacer"></div>
-    <nav class="navbar" id="navbar">
+    <nav class="navbar" id="navbar" aria-label="Navegación principal">
       <div class="navbar-container">
         <div class="mobile-left">
-          <a href="/" class="logo-mobile">
-            <img src="assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" />
+          <a href="/" class="logo-mobile" aria-label="Dromux - Inicio">
+            <img src="/assets/img/dromux-blanco.png" alt="Dromux" />
           </a>
-          <button class="hamburger" id="hamburger" aria-label="Abrir menú">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+          <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+            <span class="line"></span><span class="line"></span><span class="line"></span>
           </button>
         </div>
 
-        <a href="/" class="logo-desktop">
-          <img src="assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" />
+        <a href="/" class="logo-desktop" aria-label="Dromux - Inicio">
+          <img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" />
         </a>
 
         <ul class="nav-menu">
@@ -103,286 +122,209 @@
           <li><a href="/contacto/" class="nav-link">Contacto</a></li>
         </ul>
 
-        <a href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20del%20software" target="_blank" rel="noopener noreferrer" class="nav-cta">
-          Hablar con un asesor
+        <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20ver%20una%20demo%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="nav-cta">
+          Solicitar demo
         </a>
       </div>
     </nav>
 
     <div class="mobile-overlay" id="mobileOverlay"></div>
-    <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
       <div class="mobile-header">
-        <a href="/">
-          <img src="assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" class="mobile-logo-img" />
-        </a>
-        <button class="close-btn" id="closeMenu" aria-label="Cerrar menú">
-          <i data-lucide="x"></i>
-        </button>
+        <a href="/" aria-label="Dromux - Inicio"><img src="/assets/img/dromux-blanco.png" alt="Dromux" class="mobile-logo-img" /></a>
+        <button class="close-btn" id="closeMenu" aria-label="Cerrar menú"><i data-lucide="x"></i></button>
       </div>
       <div class="mobile-links">
         <a href="/" class="mobile-link active-link">Inicio</a>
         <a href="/software-para-concesionarios/" class="mobile-link">Software</a>
         <a href="/funcionalidades/" class="mobile-link">Funcionalidades</a>
-        <a href="/web-para-concesionarios/" class="mobile-link">Web</a>
+        <a href="/web-para-concesionarios/" class="mobile-link">Web para concesionarios</a>
         <a href="/planes/" class="mobile-link">Planes</a>
-        <a href="/preguntas-frecuentes/" class="mobile-link">FAQ</a>
+        <a href="/preguntas-frecuentes/" class="mobile-link">Preguntas frecuentes</a>
         <a href="/contacto/" class="mobile-link">Contacto</a>
       </div>
-      <a href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20del%20software" target="_blank" rel="noopener noreferrer" class="mobile-menu-cta">
-        Hablar con un asesor
-      </a>
+      <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20ver%20una%20demo%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="mobile-menu-cta">Solicitar demo</a>
     </div>
   </header>
 
   <main>
-    <section class="hero reveal">
-      <div class="hero-bg-grid"></div>
-      <div class="hero-spot hero-spot-left"></div>
-      <div class="hero-spot hero-spot-right"></div>
-      <div class="hero-overlay"></div>
+    <section class="hv2-hero">
+      <div class="hv2-grid-bg"></div>
+      <div class="hv2-glow hv2-glow-a"></div>
+      <div class="hv2-glow hv2-glow-b"></div>
+      <div class="container hv2-hero-grid">
+        <div class="hv2-hero-copy reveal">
+          <div class="hv2-eyebrow"><span></span> Software de gestión automotor para concesionarios</div>
+          <h1>Todo tu concesionario. <em>Un solo sistema.</em></h1>
+          <p class="hv2-lead">Dromux centraliza <strong>stock, CRM, ventas, rentabilidad, tesorería, gestoría y tu página web</strong> para que dejes de trabajar con información repartida entre planillas, papeles y herramientas separadas.</p>
 
-      <div class="container hero-shell">
-        <div class="hero-copy">
-          <span class="section-kicker section-kicker-light">Sistema de gestión automotor</span>
-          <h1>Software para concesionarios que aumenta ventas y controla tu rentabilidad</h1>
-          <p>Dromux es el sistema de gestión para concesionarios en Argentina que centraliza stock, ventas, clientes y gastos en una sola plataforma profesional.</p>
-
-          <div class="hero-cta">
-            <a href="https://wa.me/5493572674920?text=Hola%20quiero%20informacion%20del%20software" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-              Asesorate ahora
+          <div class="hv2-actions">
+            <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20ver%20una%20demo%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i data-lucide="play-circle"></i> Ver una demo
             </a>
-            <a href="/funcionalidades/" class="btn btn-secondary">
-              Ver funcionalidades del software
-            </a>
+            <a href="/software-para-concesionarios/" class="btn btn-secondary">Conocer el software <i data-lucide="arrow-right"></i></a>
           </div>
 
-          <div class="hero-proof">
-            <div class="hero-proof-item">
-              <strong>Tesoreria</strong>
-              <span>Caja, bancos y creditos</span>
-            </div>
-            <div class="hero-proof-item">
-              <strong>Stock</strong>
-              <span>ventas y rentabilidad en un solo sistema</span>
-            </div>
-            <div class="hero-proof-item">
-              <strong>Web</strong>
-              <span>automática sincronizada con tu catálogo</span>
-            </div>
+          <div class="hv2-mini-proof">
+            <span><i data-lucide="check"></i> Acceso desde cualquier dispositivo</span>
+            <span><i data-lucide="check"></i> Implementación acompañada</span>
+            <span><i data-lucide="check"></i> Módulos según tu operación</span>
           </div>
         </div>
 
-        <div class="hero-visual">
-          <div class="hero-dashboard-card floating-card card-large">
-            <div class="card-topline"></div>
-            <div class="card-header-row">
-              <div>
-                <p class="mini-label">Vista general</p>
-                <h3>Panel centralizado</h3>
-              </div>
-              <div class="status-pill status-ok">Online</div>
+        <div class="hv2-hero-product reveal">
+          <div class="hv2-browser">
+            <div class="hv2-browser-top">
+              <div class="hv2-browser-dots"><span></span><span></span><span></span></div>
+              <div class="hv2-browser-url"><i data-lucide="lock-keyhole"></i> autogestion.dromux.com</div>
+              <div class="hv2-browser-spacer"></div>
             </div>
-
-            <div class="metric-grid">
-              <div class="metric-card">
-                <span>Seguimiento comercial</span>
-                <strong>+40%</strong>
-              </div>
-              <div class="metric-card">
-                <span>Orden operativo</span>
-                <strong>+65%</strong>
-              </div>
-              <div class="metric-card wide">
-                <span>Rentabilidad controlada</span>
-                <strong>Vehículo por vehículo</strong>
-              </div>
-            </div>
+            <img src="/assets/img/dashboard.JPG" alt="Panel de control del software para concesionarios Dromux" width="1087" height="810" fetchpriority="high" />
           </div>
-
-          <div class="hero-dashboard-card floating-card card-small card-small-a">
-            <i data-lucide="car-front"></i>
-            <div>
-              <p class="mini-label">Stock en tiempo real</p>
-              <strong>Catálogo sincronizado</strong>
-            </div>
+          <div class="hv2-float-card hv2-float-stock">
+            <i data-lucide="car-front"></i><div><strong>Stock conectado</strong><span>Gestión + web</span></div>
           </div>
-
-          <div class="hero-dashboard-card floating-card card-small card-small-b">
-            <i data-lucide="users-round"></i>
-            <div>
-              <p class="mini-label">Seguimiento comercial</p>
-              <strong>CRM y leads ordenados</strong>
-            </div>
+          <div class="hv2-float-card hv2-float-finance">
+            <i data-lucide="landmark"></i><div><strong>Tesorería</strong><span>Cajas, bancos y cheques</span></div>
           </div>
+        </div>
+      </div>
+
+      <div class="container hv2-trust-row reveal" aria-label="Áreas integradas en Dromux">
+        <span>Vehículos</span><span>Leads</span><span>Ventas</span><span>Rentabilidad</span><span>Tesorería</span><span>Gestoría</span><span>Web</span>
+      </div>
+    </section>
+
+    <section class="hv2-problem hv2-section reveal">
+      <div class="container hv2-split-head">
+        <div>
+          <span class="section-kicker">Menos desorden. Más control.</span>
+          <h2>Tu concesionaria puede funcionar mejor sin sumar más planillas</h2>
+        </div>
+        <p>Cuando el stock está en un lugar, los clientes en WhatsApp, los gastos en una planilla y los documentos en carpetas, obtener una visión real del negocio se vuelve difícil. Dromux conecta esas áreas en un mismo flujo de trabajo.</p>
+      </div>
+
+      <div class="container hv2-problem-grid">
+        <article class="hv2-problem-card"><div class="hv2-icon"><i data-lucide="files"></i></div><h3>Información dispersa</h3><p>Centralizá vehículos, clientes, ventas, gastos y documentación para que el equipo trabaje sobre la misma información.</p></article>
+        <article class="hv2-problem-card"><div class="hv2-icon"><i data-lucide="circle-dollar-sign"></i></div><h3>Rentabilidad poco clara</h3><p>Registrá precio de ingreso, gastos y venta para conocer mejor el resultado de cada operación.</p></article>
+        <article class="hv2-problem-card"><div class="hv2-icon"><i data-lucide="user-round-x"></i></div><h3>Leads sin seguimiento</h3><p>Ordená consultas y oportunidades por vendedor para que cada contacto tenga seguimiento comercial.</p></article>
+        <article class="hv2-problem-card"><div class="hv2-icon"><i data-lucide="refresh-cw"></i></div><h3>Trabajo duplicado</h3><p>Conectá el stock del sistema con la web del concesionario y evitá cargar el mismo vehículo una y otra vez.</p></article>
+      </div>
+    </section>
+
+    <section class="hv2-platform hv2-section reveal">
+      <div class="container hv2-center-head">
+        <span class="section-kicker">Una plataforma modular</span>
+        <h2>Un software para gestionar las áreas que hacen funcionar tu concesionario</h2>
+        <p>No todos los concesionarios trabajan igual. Dromux combina una base de gestión con módulos que podés sumar según las necesidades de tu operación.</p>
+      </div>
+
+      <div class="container hv2-module-grid">
+        <a href="/software-para-concesionarios/" class="hv2-module hv2-module-featured">
+          <div class="hv2-module-copy"><div class="hv2-module-icon"><i data-lucide="car-front"></i></div><span class="hv2-tag">Gestión central</span><h3>Stock, gastos y ventas</h3><p>Administrá el ciclo del vehículo desde su ingreso hasta la venta, con datos comerciales y económicos en un mismo lugar.</p><span class="hv2-link">Ver software <i data-lucide="arrow-up-right"></i></span></div>
+          <div class="hv2-module-shot"><img src="/assets/img/gestionvehiculos.JPG" alt="Gestión de vehículos y stock en Dromux" loading="lazy" width="966" height="640" /></div>
+        </a>
+
+        <a href="/funcionalidades/" class="hv2-module"><div class="hv2-module-icon"><i data-lucide="users-round"></i></div><span class="hv2-tag">Comercial</span><h3>CRM y leads</h3><p>Organizá oportunidades, asigná vendedores y mantené visible el estado de cada negociación.</p><span class="hv2-link">Ver funcionalidades <i data-lucide="arrow-up-right"></i></span></a>
+        <a href="/funcionalidades/" class="hv2-module"><div class="hv2-module-icon"><i data-lucide="landmark"></i></div><span class="hv2-tag">Administración</span><h3>Tesorería</h3><p>Cajas, bancos, movimientos, cheques, clientes y planes de pago integrados a la gestión.</p><span class="hv2-link">Conocer más <i data-lucide="arrow-up-right"></i></span></a>
+        <a href="/funcionalidades/" class="hv2-module"><div class="hv2-module-icon"><i data-lucide="folder-kanban"></i></div><span class="hv2-tag">Documentación</span><h3>Gestoría</h3><p>Centralizá clientes, trámites, archivos y documentación vinculada a cada gestión.</p><span class="hv2-link">Conocer más <i data-lucide="arrow-up-right"></i></span></a>
+        <a href="/web-para-concesionarios/" class="hv2-module"><div class="hv2-module-icon"><i data-lucide="globe-2"></i></div><span class="hv2-tag">Presencia digital</span><h3>Página web sincronizada</h3><p>Tu catálogo online se alimenta desde el mismo stock que administra tu equipo dentro de Dromux.</p><span class="hv2-link">Ver páginas web <i data-lucide="arrow-up-right"></i></span></a>
+        <a href="/funcionalidades/" class="hv2-module"><div class="hv2-module-icon"><i data-lucide="file-signature"></i></div><span class="hv2-tag">Operaciones</span><h3>Financiación y documentos</h3><p>Presupuestos, preventa, recibos, boletos, peritajes y herramientas para acompañar cada operación.</p><span class="hv2-link">Explorar módulos <i data-lucide="arrow-up-right"></i></span></a>
+      </div>
+    </section>
+
+    <section class="hv2-real-product hv2-section reveal">
+      <div class="container hv2-product-layout">
+        <div class="hv2-product-image">
+          <div class="hv2-image-frame"><img src="/assets/img/dromux10.png" alt="Interfaz del sistema de gestión para concesionarios Dromux" loading="lazy" width="1920" height="1080" /></div>
+        </div>
+        <div class="hv2-product-copy">
+          <span class="section-kicker">El sistema real</span>
+          <h2>Menos promesas. Más producto.</h2>
+          <p>Dromux está pensado para el trabajo cotidiano de una agencia de autos: cargar vehículos, registrar gastos, seguir clientes, documentar ventas y consultar información desde un panel centralizado.</p>
+          <div class="hv2-check-list">
+            <div><i data-lucide="badge-check"></i><span><strong>Multiusuario y por roles.</strong> Cada integrante accede a lo que necesita según su función.</span></div>
+            <div><i data-lucide="badge-check"></i><span><strong>Modular.</strong> Sumá herramientas a medida que crece tu concesionario.</span></div>
+            <div><i data-lucide="badge-check"></i><span><strong>100% web.</strong> Accedé desde una computadora, tablet o teléfono con conexión a Internet.</span></div>
+          </div>
+          <a href="/funcionalidades/" class="btn btn-secondary">Explorar todas las funcionalidades <i data-lucide="arrow-right"></i></a>
         </div>
       </div>
     </section>
 
-    <section class="features-home reveal">
-      <div class="container section-head centered-head">
-        <span class="section-kicker">Plataforma integral</span>
-        <h2>Todo lo que tu concesionario necesita en un solo sistema</h2>
+    <section class="hv2-web hv2-section reveal">
+      <div class="container hv2-center-head">
+        <span class="section-kicker">Sistema + página web</span>
+        <h2>Publicá tu stock una vez y mantené tu web actualizada desde Dromux</h2>
+        <p>Convertí el inventario que ya gestiona tu equipo en un catálogo online profesional para que potenciales clientes puedan ver tus vehículos desde cualquier lugar.</p>
       </div>
 
-      <div class="container features-home-grid">
-        <a href="/software-para-concesionarios/" class="feature-card premium-card">
-          <div class="feature-icon"><i data-lucide="car"></i></div>
-          <h3>Gestión de stock inteligente</h3>
-          <p>Controlá cada vehículo, costos reales y rentabilidad desde un solo lugar.</p>
+      <div class="container hv2-web-grid">
+        <a href="https://concesionario-a.dromux.com" target="_blank" rel="noopener noreferrer" class="hv2-web-card">
+          <div class="hv2-web-shot"><img src="/assets/img/modelooscuro.JPG" alt="Página web oscura para concesionario creada con Dromux" loading="lazy" width="1902" height="965" /></div>
+          <div><span>Modelo oscuro</span><strong>Diseño premium para tu catálogo</strong><i data-lucide="arrow-up-right"></i></div>
         </a>
-
-        <a href="/funcionalidades/" class="feature-card premium-card">
-          <div class="feature-icon"><i data-lucide="users"></i></div>
-          <h3>CRM y seguimiento de leads</h3>
-          <p>Organizá oportunidades, llamadas y cierres sin perder ventas.</p>
-        </a>
-
-        <a href="/web-para-concesionarios/" class="feature-card premium-card">
-          <div class="feature-icon"><i data-lucide="globe"></i></div>
-          <h3>Web automática para tu concesionario</h3>
-          <p>Publicá tu stock online en tiempo real sin cargar doble información.</p>
+        <a href="https://concesionario-b.dromux.com" target="_blank" rel="noopener noreferrer" class="hv2-web-card">
+          <div class="hv2-web-shot"><img src="/assets/img/modeloblanco.JPG" alt="Página web clara para concesionario creada con Dromux" loading="lazy" width="1902" height="958" /></div>
+          <div><span>Modelo claro</span><strong>Experiencia moderna y adaptable</strong><i data-lucide="arrow-up-right"></i></div>
         </a>
       </div>
+      <div class="container hv2-inline-cta"><a href="/web-para-concesionarios/" class="btn btn-secondary">Conocer la web para concesionarios <i data-lucide="arrow-right"></i></a></div>
+    </section>
 
-      <div class="container section-action centered-action">
-        <a href="/funcionalidades/" class="btn btn-primary">Ver todas las funcionalidades</a>
+    <section class="hv2-how hv2-section reveal">
+      <div class="container hv2-split-head">
+        <div><span class="section-kicker">Implementación simple</span><h2>De la demo al uso diario, sin complicar a tu equipo</h2></div>
+        <p>La tecnología tiene que simplificar la operación, no agregar otra tarea. Por eso la implementación se enfoca en adaptar Dromux al funcionamiento de tu concesionario.</p>
+      </div>
+      <div class="container hv2-steps">
+        <article><span>01</span><div><h3>Conocemos tu operación</h3><p>Vemos cómo trabajan hoy, qué áreas necesitan ordenar y qué módulos tienen sentido.</p></div></article>
+        <article><span>02</span><div><h3>Configuramos Dromux</h3><p>Preparamos usuarios, accesos, módulos y la estructura inicial del concesionario.</p></div></article>
+        <article><span>03</span><div><h3>Empezás a centralizar</h3><p>Tu equipo incorpora el sistema al flujo diario con acompañamiento durante la puesta en marcha.</p></div></article>
       </div>
     </section>
 
-    <section class="before-after-section reveal">
-      <div class="container section-head centered-head narrow-head">
-        <span class="section-kicker">Antes y después</span>
-        <h2>La diferencia entre gestionar sin sistema y usar Dromux</h2>
-      </div>
-
-      <div class="container comparison-grid">
-        <div class="comparison-card premium-card card-before">
-          <div class="comparison-badge badge-negative">Sin sistema</div>
-          <h3>❌ Sin sistema</h3>
-          <ul>
-            <li>Leads anotados en papel o WhatsApp</li>
-            <li>Desconocimiento de la rentabilidad real</li>
-            <li>Falta de control de gastos por vehículo</li>
-            <li>Ventas que se pierden por mala organización</li>
-            <li>Dependencia total del dueño</li>
-          </ul>
+    <section class="hv2-seo-copy hv2-section reveal">
+      <div class="container hv2-seo-layout">
+        <div>
+          <span class="section-kicker">Software especializado</span>
+          <h2>Un sistema de gestión pensado para concesionarios y agencias de autos</h2>
         </div>
-
-        <div class="comparison-card premium-card card-after">
-          <div class="comparison-badge badge-positive">Con Dromux</div>
-          <h3>✅ Con Dromux</h3>
-          <ul>
-            <li>Seguimiento profesional de cada lead</li>
-            <li>Rentabilidad automática por vehículo</li>
-            <li>Control total de stock y gastos</li>
-            <li>Reportes claros y decisiones basadas en datos</li>
-            <li>Equipo organizado y procesos definidos</li>
-          </ul>
+        <div class="hv2-seo-text">
+          <p>Un <strong>software para concesionarios</strong> tiene que acompañar procesos propios del negocio automotor: administrar vehículos, seguir consultas, registrar ventas, controlar gastos y organizar la documentación de cada operación. Dromux reúne esas tareas en una plataforma especializada.</p>
+          <p>A diferencia de utilizar herramientas genéricas por separado, un <strong>sistema para concesionarios</strong> permite relacionar la información comercial con el stock y la administración. Así, el equipo puede consultar el estado de los vehículos, los clientes y las operaciones sin depender de múltiples archivos.</p>
+          <p>Además, Dromux puede integrar una <strong>página web para concesionarios</strong> sincronizada con el catálogo del sistema, reduciendo la duplicación de tareas y creando una presencia digital conectada con la gestión interna.</p>
         </div>
-      </div>
-
-      <div class="container comparison-cta centered-action">
-        <p>Pasá de improvisar a gestionar como un concesionario profesional.</p>
-        <a href="https://wa.me/5493572674920?text=Hola%20quiero%20ver%20como%20funciona%20Dromux" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Solicitar una demo</a>
-        <a href="/software-para-concesionarios/" class="text-link">Ver cómo funciona el sistema completo →</a>
       </div>
     </section>
 
-    <section class="concesionarios-preview reveal" id="modelos">
-      <div class="container section-head centered-head narrow-head">
-        <span class="section-kicker">Web para concesionarios</span>
-        <h2>Ejemplos de páginas web para concesionarios con Dromux</h2>
-        <p>Mirá ejemplos reales de sitios web de concesionarios con catálogo de vehículos online, diseñados y gestionados desde Dromux.</p>
+    <section class="hv2-faq hv2-section reveal">
+      <div class="container hv2-center-head">
+        <span class="section-kicker">Preguntas frecuentes</span>
+        <h2>Lo que suelen preguntarnos antes de implementar Dromux</h2>
       </div>
-
-      <div class="container preview-grid">
-        <a href="https://concesionario-a.dromux.com" target="_blank" rel="noopener noreferrer" class="preview-card premium-card" aria-label="Ver ejemplo de página web para concesionario diseño oscuro">
-          <div class="preview-image-container">
-            <img src="assets/img/modelooscuro.JPG" alt="Ejemplo de página web para concesionario con catálogo de vehículos creada con Dromux" class="preview-image" loading="lazy" />
-          </div>
-          <div class="preview-content">
-            <h3>Ejemplo de página web para concesionario (diseño oscuro)</h3>
-            <p>Estilo premium y modificable al gusto de cada concesionario.</p>
-            <div class="preview-button">Ver sitio →</div>
-          </div>
-        </a>
-
-        <a href="https://concesionario-b.dromux.com" target="_blank" rel="noopener noreferrer" class="preview-card premium-card" aria-label="Ver ejemplo de página web para concesionario diseño claro">
-          <div class="preview-image-container">
-            <img src="assets/img/modeloblanco.JPG" alt="Ejemplo de página web para concesionario con catálogo de vehículos creada con Dromux" class="preview-image" loading="lazy" />
-          </div>
-          <div class="preview-content">
-            <h3>Ejemplo de página web para concesionario (diseño claro)</h3>
-            <p>Diseño moderno y modificable al gusto de cada concesionario.</p>
-            <div class="preview-button">Ver sitio →</div>
-          </div>
-        </a>
+      <div class="container hv2-faq-list">
+        <details><summary>¿Qué es Dromux?<i data-lucide="plus"></i></summary><p>Dromux es un software web de gestión para concesionarios y agencias de autos. Centraliza áreas como stock, clientes, leads, ventas, rentabilidad y, mediante módulos, tesorería, gestoría y otras herramientas operativas.</p></details>
+        <details><summary>¿Tengo que cargar los vehículos dos veces si también tengo una página web?<i data-lucide="plus"></i></summary><p>No. Cuando utilizás la web integrada de Dromux, el objetivo es que el catálogo público se alimente desde el stock administrado en el sistema para evitar la doble carga.</p></details>
+        <details><summary>¿Pueden usarlo distintos empleados?<i data-lucide="plus"></i></summary><p>Sí. Dromux permite trabajar con distintos usuarios y roles para separar accesos según la función de cada integrante del concesionario.</p></details>
+        <details><summary>¿Funciona solamente para concesionarios grandes?<i data-lucide="plus"></i></summary><p>No. La propuesta es modular, por lo que puede adaptarse a agencias más chicas y sumar herramientas a medida que aumenta la cantidad de vehículos, usuarios o procesos internos.</p></details>
+        <details><summary>¿Cómo puedo conocer el sistema antes de contratarlo?<i data-lucide="plus"></i></summary><p>Podés solicitar una demostración para conocer el funcionamiento, revisar los módulos disponibles y evaluar qué configuración se adapta mejor a tu concesionario.</p></details>
       </div>
-
-      <div class="container section-action centered-action">
-        <a href="/web-para-concesionarios/" class="text-link">Descubrí cómo funciona la web automática para concesionarios →</a>
-      </div>
+      <div class="container hv2-inline-cta"><a href="/preguntas-frecuentes/" class="text-link">Ver todas las preguntas frecuentes →</a></div>
     </section>
 
-    <section class="planes-home-section reveal">
-      <div class="container section-head centered-head narrow-head">
-        <span class="section-kicker">Planes</span>
-        <h2>Planes flexibles para cada etapa de tu concesionario</h2>
-        <p>Empezá con demo de prueba gratuita. Sin contratos largos ni costos ocultos.</p>
-      </div>
-
-      <div class="container planes-home-grid">
-        <div class="planes-home-card premium-card">
-          <h3>Impulso</h3>
-          <p class="ideal">Ideal para concesionarios pequeños</p>
-          <ul>
-            <li><i data-lucide="check"></i> Hasta 3 usuarios</li>
-            <li><i data-lucide="check"></i> Gestión completa de stock</li>
-            <li><i data-lucide="check"></i> CRM de ventas y leads</li>
-            <li><i data-lucide="check"></i> Dashboard de rentabilidad</li>
-          </ul>
-          <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20consultar%20por%20el%20plan%20Impulso" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Consultar plan</a>
+    <section class="hv2-final reveal">
+      <div class="container hv2-final-card">
+        <div class="hv2-final-glow"></div>
+        <div class="hv2-final-copy">
+          <span class="section-kicker section-kicker-light">Conocé Dromux</span>
+          <h2>¿Querés ver cómo quedaría tu concesionario trabajando desde un solo sistema?</h2>
+          <p>Coordinemos una demo y revisamos juntos qué partes de Dromux pueden ayudarte a ordenar y digitalizar tu operación.</p>
         </div>
-
-        <div class="planes-home-card premium-card popular">
-          <div class="plan-badge">Más elegido</div>
-          <h3>Expansión</h3>
-          <p class="ideal">Para concesionarios en crecimiento</p>
-          <ul>
-            <li><i data-lucide="check"></i> Hasta 5 usuarios</li>
-            <li><i data-lucide="check"></i> Publicación web automática</li>
-            <li><i data-lucide="check"></i> SEO optimizado</li>
-            <li><i data-lucide="check"></i> Reportes avanzados</li>
-          </ul>
-          <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20consultar%20por%20el%20plan%20Expansión" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Consultar plan</a>
+        <div class="hv2-final-actions">
+          <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20coordinar%20una%20demo%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i data-lucide="message-circle"></i> Solicitar demo por WhatsApp</a>
+          <a href="/planes/" class="hv2-final-link">Ver planes <i data-lucide="arrow-right"></i></a>
         </div>
-
-        <div class="planes-home-card premium-card">
-          <h3>Liderazgo</h3>
-          <p class="ideal">Para concesionarios consolidados</p>
-          <ul>
-            <li><i data-lucide="check"></i> Hasta 8 usuarios</li>
-            <li><i data-lucide="check"></i> Branding personalizable</li>
-            <li><i data-lucide="check"></i> Control total de costos</li>
-            <li><i data-lucide="check"></i> Implementación prioritaria</li>
-          </ul>
-          <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20consultar%20por%20el%20plan%20Liderazgo" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Consultar plan</a>
-        </div>
-      </div>
-
-      <div class="container plans-foot">
-        <p class="plans-note">Todos los planes incluyen el software de gestión para concesionarios Dromux con CRM, control de stock en tiempo real, reportes de rentabilidad y web automática.</p>
-        <a href="/planes/" class="text-link">Ver comparación completa de planes →</a>
-      </div>
-    </section>
-
-    <section class="final-cta-section reveal">
-      <div class="container final-cta-container">
-        <span class="section-kicker section-kicker-light">Escalá tu concesionario</span>
-        <h2>Dejá de gestionar con planillas y empezá a escalar tu concesionario</h2>
-        <p>Sumate a los concesionarios que ya profesionalizaron su gestión, mejoraron su rentabilidad y tienen control total del negocio.</p>
-        <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20agendar%20una%20reunion%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Agendar una reunion ahora</a>
-        <span class="final-cta-note">Demo de prueba gratuita · Implementación bonificada</span>
       </div>
     </section>
   </main>
@@ -390,10 +332,17 @@
   <footer class="footer" id="contacto">
     <div class="container footer-shell">
       <div class="footer-brand">
-        <h3 class="footer-logo">Dromux</h3>
-        <p class="footer-description">Dromux es un software para concesionarios en Argentina que te permite gestionar stock, ventas, clientes y rentabilidad desde un solo sistema.</p>
+        <img src="/assets/img/dromux-blanco.png" alt="Dromux" class="hv2-footer-logo" loading="lazy" />
+        <p class="footer-description">Software de gestión para concesionarios y agencias de autos. Centralizá tu operación y conectá tu negocio desde una sola plataforma.</p>
       </div>
-
+      <div class="hv2-footer-links">
+        <h4 class="footer-subtitle">Dromux</h4>
+        <a href="/software-para-concesionarios/">Software para concesionarios</a>
+        <a href="/funcionalidades/">Funcionalidades</a>
+        <a href="/web-para-concesionarios/">Web para concesionarios</a>
+        <a href="/planes/">Planes</a>
+        <a href="/preguntas-frecuentes/">Preguntas frecuentes</a>
+      </div>
       <div class="footer-contact">
         <h4 class="footer-subtitle">Contacto</h4>
         <ul class="footer-contact-list">
@@ -402,28 +351,22 @@
           <li><i data-lucide="mail" class="footer-icon"></i><a href="mailto:dromuxmotors@gmail.com">dromuxmotors@gmail.com</a></li>
         </ul>
       </div>
-
       <div class="footer-social">
         <h4 class="footer-subtitle">Seguinos</h4>
         <div class="footer-social-icons">
-          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f social-icon"></i></a>
-          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram social-icon"></i></a>
-          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp social-icon"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp social-icon"></i></a>
         </div>
       </div>
     </div>
-
-    <div class="container footer-bottom">
-      <p class="footer-copyright">&copy; 2026 Dromux. Software para concesionarios en Argentina.</p>
-    </div>
+    <div class="container footer-bottom"><p class="footer-copyright">&copy; 2026 Dromux. Software para concesionarios.</p></div>
   </footer>
 
   <div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
-    <a href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios." class="whatsapp-fab__button" target="_blank" rel="noopener noreferrer" aria-label="Abrir chat de WhatsApp">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" class="whatsapp-fab__icon" loading="lazy" />
-      <span class="whatsapp-fab__pulse"></span>
+    <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Dromux" class="whatsapp-fab__button" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i><span class="whatsapp-fab__pulse"></span>
     </a>
-    <div class="whatsapp-fab__tooltip" id="waTooltip">¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong></div>
   </div>
 
   <script>
@@ -433,51 +376,33 @@
     const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobileMenu');
     const mobileOverlay = document.getElementById('mobileOverlay');
-    const closeMenu = document.getElementById('closeMenu');
+    const closeMenuButton = document.getElementById('closeMenu');
 
-    window.addEventListener('scroll', () => {
-      navbar.classList.toggle('scrolled', window.scrollY > 16);
-    });
+    window.addEventListener('scroll', () => navbar?.classList.toggle('scrolled', window.scrollY > 16), { passive: true });
 
-    function openMobileMenu() {
-      mobileMenu.classList.add('active');
-      mobileOverlay.classList.add('active');
-      document.body.style.overflow = 'hidden';
+    function setMenu(open) {
+      mobileMenu?.classList.toggle('active', open);
+      mobileOverlay?.classList.toggle('active', open);
+      hamburger?.setAttribute('aria-expanded', String(open));
+      mobileMenu?.setAttribute('aria-hidden', String(!open));
+      document.body.style.overflow = open ? 'hidden' : '';
     }
 
-    function closeMobileMenu() {
-      mobileMenu.classList.remove('active');
-      mobileOverlay.classList.remove('active');
-      document.body.style.overflow = '';
-    }
+    hamburger?.addEventListener('click', () => setMenu(true));
+    mobileOverlay?.addEventListener('click', () => setMenu(false));
+    closeMenuButton?.addEventListener('click', () => setMenu(false));
+    document.querySelectorAll('.mobile-link').forEach(link => link.addEventListener('click', () => setMenu(false)));
 
-    hamburger?.addEventListener('click', openMobileMenu);
-    mobileOverlay?.addEventListener('click', closeMobileMenu);
-    closeMenu?.addEventListener('click', closeMobileMenu);
-
-    window.addEventListener('load', function () {
-      const loader = document.getElementById('premium-loader');
-      const tooltip = document.getElementById('waTooltip');
-
-      setTimeout(() => {
-        loader.classList.add('fade-out');
-        setTimeout(() => loader.remove(), 700);
-      }, 1600);
-
-      setTimeout(() => tooltip.classList.add('is-visible'), 1100);
-      setTimeout(() => tooltip.classList.remove('is-visible'), 5200);
-    });
-
-    const elements = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px' });
 
-    elements.forEach((el) => observer.observe(el));
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
   </script>
 </body>
 </html>

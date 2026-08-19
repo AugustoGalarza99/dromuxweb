@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Gestión de Stock para Concesionarios | Dromux</title>
+  <meta name="description" content="Sistema de gestión de stock para concesionarios y agencias de autos. Administrá vehículos, gastos, consignaciones, publicaciones, ventas y rentabilidad con Dromux." />
+  <link rel="canonical" href="https://dromux.com/gestion-de-stock-para-concesionarios/" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Gestión de Stock para Concesionarios | Dromux" />
+  <meta property="og:description" content="Organizá el stock de tu concesionaria desde el ingreso del vehículo hasta su venta, con información conectada dentro de Dromux." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dromux.com/gestion-de-stock-para-concesionarios/" />
+  <meta property="og:image" content="https://dromux.com/og-software-concesionarios.png" />
+
+  <link rel="icon" type="image/png" href="/assets/img/dromux.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/stock-concesionarios.css" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T2SFS3BCJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1T2SFS3BCJ');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "@id":"https://dromux.com/#organization",
+        "name":"Dromux",
+        "url":"https://dromux.com/",
+        "logo":"https://dromux.com/assets/img/dromux.png",
+        "contactPoint":{
+          "@type":"ContactPoint",
+          "contactType":"sales",
+          "telephone":"+54-9-3572-674920",
+          "areaServed":"AR",
+          "availableLanguage":"es"
+        }
+      },
+      {
+        "@type":"SoftwareApplication",
+        "@id":"https://dromux.com/gestion-de-stock-para-concesionarios/#software",
+        "name":"Gestión de stock para concesionarios Dromux",
+        "applicationCategory":"BusinessApplication",
+        "operatingSystem":"Web",
+        "url":"https://dromux.com/gestion-de-stock-para-concesionarios/",
+        "description":"Sistema web para gestionar stock de vehículos, gastos, consignaciones, publicaciones, ventas y rentabilidad en concesionarios y agencias de autos.",
+        "publisher":{"@id":"https://dromux.com/#organization"}
+      },
+      {
+        "@type":"WebPage",
+        "@id":"https://dromux.com/gestion-de-stock-para-concesionarios/#webpage",
+        "url":"https://dromux.com/gestion-de-stock-para-concesionarios/",
+        "name":"Gestión de stock para concesionarios",
+        "description":"Gestión de vehículos y stock automotor para concesionarios y agencias de autos.",
+        "about":{"@id":"https://dromux.com/gestion-de-stock-para-concesionarios/#software"}
+      },
+      {
+        "@type":"BreadcrumbList",
+        "@id":"https://dromux.com/gestion-de-stock-para-concesionarios/#breadcrumb",
+        "itemListElement":[
+          {"@type":"ListItem","position":1,"name":"Inicio","item":"https://dromux.com/"},
+          {"@type":"ListItem","position":2,"name":"Software para concesionarios","item":"https://dromux.com/software-para-concesionarios/"},
+          {"@type":"ListItem","position":3,"name":"Gestión de stock","item":"https://dromux.com/gestion-de-stock-para-concesionarios/"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <div class="navbar-spacer"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <div class="mobile-left">
+        <a href="/" class="logo-mobile"><img src="/assets/img/dromux-blanco.png" alt="Dromux"></a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+          <span class="line"></span><span class="line"></span><span class="line"></span>
+        </button>
+      </div>
+
+      <a href="/" class="logo-desktop"><img src="/assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios"></a>
+
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link">Inicio</a></li>
+        <li><a href="/software-para-concesionarios/" class="nav-link active-link">Software</a></li>
+        <li><a href="/funcionalidades/" class="nav-link">Funcionalidades</a></li>
+        <li><a href="/web-para-concesionarios/" class="nav-link">Web</a></li>
+        <li><a href="/planes/" class="nav-link">Planes</a></li>
+        <li><a href="/preguntas-frecuentes/" class="nav-link">FAQ</a></li>
+        <li><a href="/contacto/" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <a href="https://wa.me/5493572674920?text=Hola%20quiero%20conocer%20la%20gesti%C3%B3n%20de%20stock%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="nav-cta">Hablar con un asesor</a>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-header">
+      <a href="/"><img src="/assets/img/dromux-blanco.png" alt="Dromux" class="mobile-logo-img"></a>
+      <button class="close-btn" id="closeMenu" aria-label="Cerrar menú"><i data-lucide="x"></i></button>
+    </div>
+    <div class="mobile-links">
+      <a href="/" class="mobile-link">Inicio</a>
+      <a href="/software-para-concesionarios/" class="mobile-link active-link">Software</a>
+      <a href="/funcionalidades/" class="mobile-link">Funcionalidades</a>
+      <a href="/web-para-concesionarios/" class="mobile-link">Web</a>
+      <a href="/planes/" class="mobile-link">Planes</a>
+      <a href="/preguntas-frecuentes/" class="mobile-link">FAQ</a>
+      <a href="/contacto/" class="mobile-link">Contacto</a>
+    </div>
+    <a href="https://wa.me/5493572674920?text=Hola%20quiero%20conocer%20la%20gesti%C3%B3n%20de%20stock%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="mobile-menu-cta">Hablar con un asesor</a>
+  </div>
+
+  <main class="stk-page">
+    <section class="stk-hero">
+      <div class="stk-container">
+        <div class="stk-breadcrumb">
+          <a href="/">Inicio</a><i data-lucide="chevron-right"></i>
+          <a href="/software-para-concesionarios/">Software</a><i data-lucide="chevron-right"></i>
+          <span>Gestión de stock</span>
+        </div>
+
+        <div class="stk-hero-grid">
+          <div class="stk-copy reveal">
+            <span class="stk-eyebrow"><i data-lucide="warehouse"></i> Stock automotor</span>
+            <h1>Gestión de stock para concesionarios: cada vehículo, <span>ordenado desde el ingreso hasta la venta.</span></h1>
+            <p>Administrá unidades, datos técnicos, gastos, consignaciones, publicaciones y estado comercial desde una misma plataforma, evitando planillas paralelas y registros duplicados.</p>
+
+            <div class="stk-actions">
+              <a class="stk-btn stk-btn-primary" href="https://wa.me/5493572674920?text=Hola%20quiero%20ver%20la%20gesti%C3%B3n%20de%20stock%20de%20Dromux" target="_blank" rel="noopener noreferrer"><i data-lucide="play-circle"></i> Ver una demo</a>
+              <a class="stk-btn stk-btn-secondary" href="#flujo">Ver el flujo <i data-lucide="arrow-down"></i></a>
+            </div>
+
+            <div class="stk-points">
+              <span><i data-lucide="check"></i> Vehículos y datos</span>
+              <span><i data-lucide="check"></i> Gastos y consignación</span>
+              <span><i data-lucide="check"></i> Publicación y venta</span>
+            </div>
+          </div>
+
+          <div class="stk-product reveal">
+            <div class="stk-browser">
+              <div class="stk-browser-top">
+                <div class="stk-dots"><i></i><i></i><i></i></div>
+                <div class="stk-address"><i data-lucide="lock-keyhole"></i> autogestion.dromux.com</div>
+              </div>
+              <div class="stk-ui">
+                <div class="stk-ui-head">
+                  <div><small>Vehículos</small><strong>Stock disponible</strong></div>
+                  <span>+ Ingresar vehículo</span>
+                </div>
+
+                <div class="stk-ui-filters">
+                  <span>Todos</span><span>Disponibles</span><span>Consignación</span><span>Vendidos</span>
+                </div>
+
+                <div class="stk-cars">
+                  <div class="stk-car-card">
+                    <div class="stk-car-photo"><i data-lucide="car-front"></i></div>
+                    <div><small>2024 · 18.500 km</small><strong>Volkswagen Nivus Highline</strong><span>Disponible</span></div>
+                  </div>
+                  <div class="stk-car-card">
+                    <div class="stk-car-photo"><i data-lucide="car-front"></i></div>
+                    <div><small>2022 · 42.000 km</small><strong>Toyota Corolla XEI</strong><span class="cons">Consignación</span></div>
+                  </div>
+                  <div class="stk-car-card">
+                    <div class="stk-car-photo"><i data-lucide="car-front"></i></div>
+                    <div><small>2020 · 68.300 km</small><strong>Chevrolet Cruze Premier</strong><span class="sold">Vendido</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stk-float stk-float-a"><i data-lucide="receipt-text"></i><div><strong>Gastos vinculados</strong><small>Cada costo queda con la unidad</small></div></div>
+            <div class="stk-float stk-float-b"><i data-lucide="badge-dollar-sign"></i><div><strong>Resultado conectado</strong><small>Ingreso, venta y rentabilidad</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-problem">
+      <div class="stk-container">
+        <div class="stk-section-head reveal">
+          <div><span class="stk-kicker">Mucho más que una lista de autos</span><h2>El stock también contiene la historia económica de cada unidad.</h2></div>
+          <p>Un vehículo no es solamente marca, modelo y kilometraje. Durante su permanencia en la concesionaria acumula gastos, cambios de estado, publicaciones y decisiones comerciales que conviene registrar juntas.</p>
+        </div>
+
+        <div class="stk-problem-grid">
+          <article class="stk-card reveal"><i data-lucide="files"></i><span>Datos dispersos</span><h3>Información repartida en distintas planillas.</h3><p>Ingreso, patente, dueño anterior, gastos y precio pueden terminar almacenados en lugares diferentes.</p></article>
+          <article class="stk-card reveal"><i data-lucide="banknote-arrow-down"></i><span>Costos invisibles</span><h3>Gastos que después no aparecen en la rentabilidad.</h3><p>Lavado, mecánica, documentación y otros egresos reducen el resultado real de la unidad.</p></article>
+          <article class="stk-card reveal"><i data-lucide="refresh-cw-off"></i><span>Doble carga</span><h3>El sistema y la web se actualizan por separado.</h3><p>Cuando el stock interno no está conectado con la publicación digital aparecen diferencias y trabajo duplicado.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-flow" id="flujo">
+      <div class="stk-container">
+        <div class="stk-flow-head reveal">
+          <span class="stk-kicker light">El ciclo de una unidad</span>
+          <h2>Una misma ficha acompaña al vehículo durante toda la operación.</h2>
+        </div>
+
+        <div class="stk-timeline">
+          <article class="reveal"><span>01</span><i data-lucide="log-in"></i><h3>Ingreso</h3><p>Registrás la unidad, sus datos principales, precio de ingreso y procedencia.</p></article>
+          <article class="reveal"><span>02</span><i data-lucide="wrench"></i><h3>Preparación</h3><p>Agregás gastos relacionados al vehículo para conservar el costo real acumulado.</p></article>
+          <article class="reveal"><span>03</span><i data-lucide="globe-2"></i><h3>Publicación</h3><p>El vehículo puede vincularse con el catálogo público de la concesionaria.</p></article>
+          <article class="reveal"><span>04</span><i data-lucide="messages-square"></i><h3>Consultas</h3><p>Los interesados pueden relacionarse con la unidad dentro del seguimiento comercial.</p></article>
+          <article class="reveal"><span>05</span><i data-lucide="badge-check"></i><h3>Venta</h3><p>Al registrar la operación, el estado vendido queda conectado con el resto de Dromux.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-features">
+      <div class="stk-container">
+        <div class="stk-section-head reveal">
+          <div><span class="stk-kicker">Información del vehículo</span><h2>Una ficha preparada para administrar unidades reales.</h2></div>
+          <p>Dromux permite almacenar datos comerciales y técnicos que ayudan al equipo a trabajar con una referencia común.</p>
+        </div>
+
+        <div class="stk-feature-grid">
+          <article class="stk-feature large reveal">
+            <div>
+              <i data-lucide="car"></i><span>Ficha central</span>
+              <h3>Datos del vehículo en un solo lugar.</h3>
+              <p>Marca, modelo, año, patente, kilometraje, precio de ingreso, fecha, propietario anterior y relación con la publicación pueden mantenerse asociados a la misma unidad.</p>
+            </div>
+            <div class="stk-data-panel">
+              <div><small>Vehículo</small><strong>Volkswagen Nivus Highline</strong></div>
+              <div class="stk-data-grid">
+                <span>Año<strong>2024</strong></span>
+                <span>Kilómetros<strong>18.500</strong></span>
+                <span>Patente<strong>AG 123 XX</strong></span>
+                <span>Estado<strong>Disponible</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="stk-feature reveal"><i data-lucide="receipt"></i><span>Gastos</span><h3>Costos ligados al vehículo.</h3><p>Registrá egresos específicos para que no queden separados del activo que los generó.</p></article>
+          <article class="stk-feature reveal"><i data-lucide="handshake"></i><span>Consignaciones</span><h3>Vehículos propios y consignados.</h3><p>Identificá unidades en consignación y contemplá la ganancia acordada en la operación.</p></article>
+          <article class="stk-feature reveal"><i data-lucide="badge-check"></i><span>Estado</span><h3>Disponible o vendido.</h3><p>El estado del vehículo permite mantener sincronizada la lectura comercial del stock.</p></article>
+          <article class="stk-feature reveal"><i data-lucide="link-2"></i><span>Conexión</span><h3>Vehículo y publicación relacionados.</h3><p>La unidad interna puede mantenerse vinculada con el producto que aparece en la web pública.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-consignment">
+      <div class="stk-container">
+        <div class="stk-consignment-grid">
+          <div class="stk-consignment-copy reveal">
+            <span class="stk-kicker">Consignaciones</span>
+            <h2>No todas las unidades ingresan de la misma manera.</h2>
+            <p>Dromux permite diferenciar vehículos propios de aquellos recibidos en consignación. Esto ayuda a que la operación refleje correctamente cómo se obtiene la ganancia cuando el vehículo pertenece a un tercero.</p>
+
+            <div class="stk-checks">
+              <span><i data-lucide="check-circle-2"></i> Identificación de consignación</span>
+              <span><i data-lucide="check-circle-2"></i> Ganancia por porcentaje o monto</span>
+              <span><i data-lucide="check-circle-2"></i> Relación con la venta final</span>
+            </div>
+          </div>
+
+          <div class="stk-consignment-panel reveal">
+            <small>Ejemplo de operación</small>
+            <h3>Vehículo en consignación</h3>
+            <div class="stk-money-row"><span>Precio de venta</span><strong>Operación registrada</strong></div>
+            <div class="stk-money-row"><span>Tipo de ganancia</span><strong>Porcentaje / monto fijo</strong></div>
+            <div class="stk-money-row total"><span>Resultado</span><strong>Calculado para la concesionaria</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-web">
+      <div class="stk-container">
+        <div class="stk-web-grid">
+          <div class="stk-web-panel reveal">
+            <div class="stk-web-window">
+              <div class="stk-web-top"><i></i><i></i><i></i><span>www.tuconcesionaria.com</span></div>
+              <div class="stk-web-content">
+                <div class="stk-web-title"><small>Stock online</small><strong>Vehículos disponibles</strong></div>
+                <div class="stk-web-cards">
+                  <span><i data-lucide="car-front"></i><b>Nivus</b></span>
+                  <span><i data-lucide="car-front"></i><b>Corolla</b></span>
+                  <span><i data-lucide="car-front"></i><b>Yaris</b></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stk-web-copy reveal">
+            <span class="stk-kicker">Stock + web</span>
+            <h2>Publicá el vehículo sin administrar dos inventarios separados.</h2>
+            <p>Cuando la concesionaria utiliza la web integrada de Dromux, la gestión interna y el catálogo público forman parte del mismo ecosistema.</p>
+            <a href="/web-para-concesionarios/" class="stk-text-link">Conocer la web para concesionarios <i data-lucide="arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-result">
+      <div class="stk-container">
+        <div class="stk-section-head reveal">
+          <div><span class="stk-kicker">Del stock al resultado</span><h2>Gestionar bien el vehículo mejora la lectura de la rentabilidad.</h2></div>
+          <p>Cuando ingreso, gastos y venta están relacionados, la concesionaria puede analizar el resultado de la unidad con una base más completa que solamente precio de compra versus precio de venta.</p>
+        </div>
+
+        <div class="stk-result-grid">
+          <div class="stk-result-card reveal"><i data-lucide="arrow-down-to-line"></i><span>Ingreso</span><strong>Precio de entrada</strong></div>
+          <i data-lucide="plus" class="stk-operator reveal"></i>
+          <div class="stk-result-card reveal"><i data-lucide="receipt-text"></i><span>Costos</span><strong>Gastos acumulados</strong></div>
+          <i data-lucide="arrow-right" class="stk-operator reveal"></i>
+          <div class="stk-result-card highlight reveal"><i data-lucide="chart-no-axes-combined"></i><span>Venta</span><strong>Resultado de la operación</strong></div>
+        </div>
+
+        <div class="stk-result-link reveal">
+          <a href="/funcionalidades/">Conocé cómo Dromux conecta stock, ventas y rentabilidad <i data-lucide="arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-related">
+      <div class="stk-container">
+        <div class="stk-section-head centered reveal">
+          <div><span class="stk-kicker">El stock no trabaja solo</span><h2>Conectalo con el resto de la gestión.</h2></div>
+        </div>
+
+        <div class="stk-related-grid">
+          <a href="/crm-para-concesionarios/" class="stk-related-card reveal"><i data-lucide="users-round"></i><span>CRM</span><h3>Leads y clientes</h3><p>Relacioná consultas con los vehículos que generan interés.</p><strong>CRM para concesionarios <i data-lucide="arrow-right"></i></strong></a>
+          <a href="/software-para-concesionarios/" class="stk-related-card reveal"><i data-lucide="monitor-cog"></i><span>Plataforma</span><h3>Software completo</h3><p>Conocé cómo Dromux integra las distintas áreas del concesionario.</p><strong>Ver software <i data-lucide="arrow-right"></i></strong></a>
+          <a href="/planes/" class="stk-related-card reveal"><i data-lucide="layers-3"></i><span>Implementación</span><h3>Planes mensuales</h3><p>Elegí una capacidad acorde a la cantidad de vehículos y usuarios.</p><strong>Ver planes <i data-lucide="arrow-right"></i></strong></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-faq">
+      <div class="stk-container stk-faq-grid">
+        <div class="stk-faq-intro reveal">
+          <span class="stk-kicker">Preguntas frecuentes</span>
+          <h2>Dudas sobre la gestión de stock automotor.</h2>
+          <a href="/preguntas-frecuentes/" class="stk-text-link">Ver preguntas generales sobre Dromux <i data-lucide="arrow-right"></i></a>
+        </div>
+        <div class="stk-faq-list">
+          <article class="reveal"><h3>¿Dromux sirve para autos usados?</h3><p>Sí. La gestión de vehículos está orientada a concesionarios y agencias que administran unidades, gastos, consignaciones, publicaciones y ventas.</p></article>
+          <article class="reveal"><h3>¿Puedo registrar gastos por cada vehículo?</h3><p>Sí. Los gastos pueden asociarse a una unidad para conservarlos junto a la operación y utilizarlos en la lectura del resultado.</p></article>
+          <article class="reveal"><h3>¿Puedo marcar un vehículo como vendido?</h3><p>Sí. Cuando se registra una venta, Dromux puede actualizar el estado de la unidad y de su publicación asociada.</p></article>
+          <article class="reveal"><h3>¿Puedo manejar consignaciones?</h3><p>Sí. Las unidades en consignación pueden identificarse y contemplar una ganancia por porcentaje o monto fijo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stk-cta">
+      <div class="stk-container">
+        <div class="stk-cta-box reveal">
+          <div>
+            <span class="stk-kicker light">Ordená tu inventario</span>
+            <h2>Que cada vehículo tenga una historia clara dentro de la concesionaria.</h2>
+            <p>Coordiná una demo y te mostramos cómo Dromux organiza stock, gastos, consignaciones, publicaciones y ventas en una misma plataforma.</p>
+          </div>
+          <a class="stk-btn stk-btn-primary" href="https://wa.me/5493572674920?text=Hola%20quiero%20coordinar%20una%20demo%20de%20la%20gesti%C3%B3n%20de%20stock%20de%20Dromux" target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle"></i> Coordinar una demo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand"><h3 class="footer-logo">Dromux</h3><p class="footer-description">Software de gestión para concesionarios y agencias de autos: vehículos, clientes, ventas, administración y web en un mismo ecosistema.</p></div>
+      <div class="footer-contact">
+        <h4 class="footer-subtitle">Contacto</h4>
+        <ul class="footer-contact-list">
+          <li><i data-lucide="map-pin" class="footer-icon"></i><span>Oncativo, Córdoba, Argentina</span></li>
+          <li><i data-lucide="message-circle" class="footer-icon"></i><a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer">+54 9 3572 674920</a></li>
+          <li><i data-lucide="mail" class="footer-icon"></i><a href="mailto:dromuxmotors@gmail.com">dromuxmotors@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4 class="footer-subtitle">Seguinos</h4>
+        <div class="footer-social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp social-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p class="footer-copyright">&copy; 2026 Dromux. Software para concesionarios en Argentina.</p></div>
+  </footer>
+
+  <div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
+    <a href="https://wa.me/5493572674920?text=Hola%20quiero%20conocer%20la%20gesti%C3%B3n%20de%20stock%20de%20Dromux" class="whatsapp-fab__button" target="_blank" rel="noopener noreferrer" aria-label="Abrir chat de WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" class="whatsapp-fab__icon" loading="lazy">
+      <span class="whatsapp-fab__pulse"></span>
+    </a>
+    <div class="whatsapp-fab__tooltip" id="waTooltip">¿Querés ordenar tu stock? <strong>Escribinos.</strong></div>
+  </div>
+
+  <script>
+    lucide.createIcons();
+
+    const navbar = document.getElementById('navbar');
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileOverlay = document.getElementById('mobileOverlay');
+    const closeMenu = document.getElementById('closeMenu');
+
+    window.addEventListener('scroll', () => navbar?.classList.toggle('scrolled', window.scrollY > 20));
+
+    function openMobileMenu() {
+      mobileMenu?.classList.add('active');
+      mobileOverlay?.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeMobileMenu() {
+      mobileMenu?.classList.remove('active');
+      mobileOverlay?.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    hamburger?.addEventListener('click', openMobileMenu);
+    closeMenu?.addEventListener('click', closeMobileMenu);
+    mobileOverlay?.addEventListener('click', closeMobileMenu);
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: .10 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    const tooltip = document.getElementById('waTooltip');
+    window.addEventListener('load', () => {
+      setTimeout(() => tooltip?.classList.add('is-visible'), 1000);
+      setTimeout(() => tooltip?.classList.remove('is-visible'), 5200);
+    });
+  </script>
+</body>
+</html>

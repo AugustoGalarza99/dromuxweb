@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>
-    Web para Concesionarios en Argentina | Sistema con Página Web Incluida | Dromux
-  </title>
-
-  <meta
-    name="description"
-    content="Dromux es el sistema para concesionarios en Argentina que incluye página web profesional con actualización automática de vehículos, SEO optimizado y generación de leads integrada."
-  />
-
-  <meta name="robots" content="index, follow" />
+  <title>Página Web para Concesionarios y Agencias de Autos | Dromux</title>
+  <meta name="description" content="Creá una página web profesional para tu concesionaria o agencia de autos, conectada al stock de Dromux. Publicá vehículos una sola vez, recibí consultas y administrá todo desde el mismo sistema." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="canonical" href="https://dromux.com/web-para-concesionarios/" />
   <link rel="icon" type="image/png" href="/assets/img/dromux.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <meta property="og:title" content="Página Web para Concesionarios y Agencias de Autos | Dromux" />
+  <meta property="og:description" content="Tu concesionaria online con stock sincronizado, fichas de vehículos, consultas por WhatsApp y gestión desde Dromux." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dromux.com/web-para-concesionarios/" />
+  <meta property="og:image" content="https://dromux.com/og-image-web.png" />
+  <meta property="og:locale" content="es_AR" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Página Web para Concesionarios | Dromux" />
+  <meta name="twitter:description" content="Página web para agencias de autos conectada al stock y al sistema de gestión Dromux." />
+  <meta name="twitter:image" content="https://dromux.com/og-image-web.png" />
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T2SFS3BCJ"></script>
   <script>
@@ -33,42 +35,70 @@
     gtag("config", "G-1T2SFS3BCJ");
   </script>
 
-  <meta property="og:title" content="Web para Concesionarios en Argentina | Dromux" />
-  <meta
-    property="og:description"
-    content="Sistema de gestión para concesionarias con web profesional incluida, actualización automática de stock y posicionamiento en Google."
-  />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.dromux.com/web-para-concesionarios" />
-  <meta property="og:image" content="https://www.dromux.com/og-image-web.png" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Web para Concesionarios en Argentina | Dromux" />
-  <meta
-    name="twitter:description"
-    content="Sistema con página web profesional incluida y optimización SEO para concesionarias en Argentina."
-  />
-
-  <script src="https://unpkg.com/lucide@latest"></script>
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Dromux",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "Sistema para concesionarios en Argentina con página web automática incluida, gestión de stock y generación de leads.",
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "ARS",
-        "price": "0"
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dromux.com/#organization",
+        "name": "Dromux",
+        "url": "https://dromux.com/",
+        "logo": "https://dromux.com/assets/img/dromux.png"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://dromux.com/web-para-concesionarios/#webpage",
+        "url": "https://dromux.com/web-para-concesionarios/",
+        "name": "Página Web para Concesionarios y Agencias de Autos | Dromux",
+        "description": "Página web profesional para concesionarios y agencias de autos conectada al stock y al sistema de gestión Dromux.",
+        "inLanguage": "es-AR",
+        "isPartOf": { "@id": "https://dromux.com/#website" },
+        "about": { "@id": "https://dromux.com/#organization" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dromux.com/#website",
+        "url": "https://dromux.com/",
+        "name": "Dromux",
+        "publisher": { "@id": "https://dromux.com/#organization" },
+        "inLanguage": "es-AR"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://dromux.com/web-para-concesionarios/#service",
+        "name": "Página web para concesionarios integrada a Dromux",
+        "serviceType": "Diseño y gestión de página web para concesionarios y agencias de autos",
+        "provider": { "@id": "https://dromux.com/#organization" },
+        "areaServed": "Argentina",
+        "url": "https://dromux.com/web-para-concesionarios/",
+        "description": "Sitio web para concesionarias conectado al sistema Dromux para administrar vehículos, stock y consultas desde una única plataforma."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://dromux.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Web para concesionarios",
+            "item": "https://dromux.com/web-para-concesionarios/"
+          }
+        ]
       }
-    }
+    ]
+  }
   </script>
 
+  <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/web-concesionarios.css" />
 </head>
-
 <body>
   <div class="navbar-spacer"></div>
 
@@ -78,11 +108,8 @@
         <a href="/" class="logo-mobile">
           <img src="../assets/img/dromux-blanco.png" alt="Dromux - Software para concesionarios" />
         </a>
-
         <button class="hamburger" id="hamburger" aria-label="Abrir menú">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
+          <span class="line"></span><span class="line"></span><span class="line"></span>
         </button>
       </div>
 
@@ -92,310 +119,228 @@
 
       <ul class="nav-menu">
         <li><a href="/" class="nav-link">Inicio</a></li>
-        <li><a href="/software-para-concesionarios/" class="nav-link"> Software</a></li>
-        <li><a href="/funcionalidades/" class="nav-link"> Funcionalidades</a></li>
-        <li><a href="/web-para-concesionarios/" class="nav-link active-link"> Web</a></li>
+        <li><a href="/software-para-concesionarios/" class="nav-link">Software</a></li>
+        <li><a href="/funcionalidades/" class="nav-link">Funcionalidades</a></li>
+        <li><a href="/web-para-concesionarios/" class="nav-link active-link">Web</a></li>
         <li><a href="/planes/" class="nav-link">Planes</a></li>
-        <li><a href="/preguntas-frecuentes/" class="nav-link"> FAQ</a></li>
-        <li><a href="/contacto/" class="nav-link"> Contacto</a></li>
+        <li><a href="/preguntas-frecuentes/" class="nav-link">FAQ</a></li>
+        <li><a href="/contacto/" class="nav-link">Contacto</a></li>
       </ul>
 
-      <a
-        href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion%20sobre%20Dromux"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="nav-cta"
-      >
-        Hablar con un asesor
-      </a>
+      <a href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion%20sobre%20Dromux" target="_blank" rel="noopener noreferrer" class="nav-cta">Hablar con un asesor</a>
     </div>
   </nav>
 
   <div class="mobile-overlay" id="mobileOverlay"></div>
-
   <div class="mobile-menu" id="mobileMenu">
     <div class="mobile-header">
-      <a href="/">
-        <img
-          src="/assets/img/dromux-blanco.png"
-          alt="Dromux - Software para concesionarios"
-          class="mobile-logo-img"
-        />
-      </a>
-
-      <button class="close-btn" id="closeMenu" aria-label="Cerrar menú">
-        <i data-lucide="x"></i>
-      </button>
+      <a href="/"><img src="/assets/img/dromux-blanco.png" alt="Dromux" class="mobile-logo-img" /></a>
+      <button class="close-btn" id="closeMenu" aria-label="Cerrar menú"><i data-lucide="x"></i></button>
     </div>
-
     <div class="mobile-links">
-      <a href="/" class="mobile-link"> Inicio</a>
-      <a href="/software-para-concesionarios/" class="mobile-link"> Software</a>
-      <a href="/funcionalidades/" class="mobile-link"> Funcionalidades</a>
-      <a href="/web-para-concesionarios/" class="mobile-link active-link"> Web</a>
-      <a href="/planes/" class="mobile-link"> Planes</a>
-      <a href="/preguntas-frecuentes/" class="mobile-link"> FAQ</a>
-      <a href="/contacto/" class="mobile-link"> Contacto</a>
+      <a href="/" class="mobile-link">Inicio</a>
+      <a href="/software-para-concesionarios/" class="mobile-link">Software</a>
+      <a href="/funcionalidades/" class="mobile-link">Funcionalidades</a>
+      <a href="/web-para-concesionarios/" class="mobile-link active-link">Web</a>
+      <a href="/planes/" class="mobile-link">Planes</a>
+      <a href="/preguntas-frecuentes/" class="mobile-link">FAQ</a>
+      <a href="/contacto/" class="mobile-link">Contacto</a>
     </div>
-
-    <a
-      href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion%20sobre%20Dromux"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="mobile-menu-cta"
-    >
-      Hablar con un asesor
-    </a>
+    <a href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion%20sobre%20Dromux" target="_blank" rel="noopener noreferrer" class="mobile-menu-cta">Hablar con un asesor</a>
   </div>
 
-  <main class="dw-wrapper">
-    <section class="dw-hero reveal">
-      <div class="dw-hero-grid"></div>
-      <div class="dw-hero-glow dw-glow-left"></div>
-      <div class="dw-hero-glow dw-glow-right"></div>
+  <main class="webp-page">
+    <section class="webp-hero">
+      <div class="webp-grid-bg"></div>
+      <div class="webp-glow webp-glow-one"></div>
+      <div class="webp-glow webp-glow-two"></div>
 
-      <div class="dw-container dw-hero-shell">
-        <div class="dw-hero-copy">
-          <span class="dw-badge">Web automática para concesionarios</span>
+      <div class="webp-container webp-hero-layout">
+        <div class="webp-hero-copy reveal">
+          <nav class="webp-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Inicio</a><i data-lucide="chevron-right"></i><span>Web para concesionarios</span>
+          </nav>
 
-          <h1>
-            Web para concesionarios en Argentina con sistema de gestión y actualización automática de vehículos
-          </h1>
+          <div class="webp-eyebrow"><i data-lucide="globe-2"></i> Sitio web conectado a tu concesionaria</div>
+          <h1>Página web para concesionarios que se actualiza desde tu sistema</h1>
+          <p class="webp-lead">Mostrá tus vehículos con una web profesional sin volver a cargar el stock en otro lugar. Con Dromux administrás la concesionaria y su vidriera digital desde una misma plataforma.</p>
 
-          <p>
-            Dromux es un sistema para concesionarias que incluye página web profesional,
-            publicación automática de autos, optimización SEO y centralización de leads.
-            Digitalizá tu agencia y aumentá tus ventas.
-          </p>
-
-          <div class="dw-hero-buttons">
-            <a
-              href="https://wa.me/5493572674920?text=Hola%20quiero%20una%20reunion%20sobre%20Dromux"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="dw-btn dw-btn-primary"
-            >
-              Solicitar reunion
-            </a>
-
-            <a href="/planes/" class="dw-btn dw-btn-outline">
-              Ver planes
-            </a>
+          <div class="webp-actions">
+            <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20ver%20c%C3%B3mo%20funciona%20la%20web%20para%20concesionarios%20de%20Dromux" target="_blank" rel="noopener noreferrer" class="webp-btn webp-btn-primary"><i data-lucide="play-circle"></i> Ver una demo</a>
+            <a href="#como-funciona" class="webp-btn webp-btn-secondary">Cómo funciona <i data-lucide="arrow-down"></i></a>
           </div>
 
-          <div class="dw-hero-proof">
-            <div class="dw-proof-card">
-              <strong>Stock online</strong>
-              <span>actualización automática en tiempo real</span>
-            </div>
-
-            <div class="dw-proof-card">
-              <strong>SEO real</strong>
-              <span>vehículos y páginas pensadas para Google</span>
-            </div>
-
-            <div class="dw-proof-card">
-              <strong>Leads integrados</strong>
-              <span>consultas conectadas a tus redes</span>
-            </div>
+          <div class="webp-microproof">
+            <span><i data-lucide="check"></i> Stock sincronizado</span>
+            <span><i data-lucide="check"></i> Dominio propio</span>
+            <span><i data-lucide="check"></i> Adaptada a celular</span>
           </div>
         </div>
 
-        <div class="dw-hero-visual">
-          <div class="dw-dashboard-card dw-dashboard-main floating-card">
-            <div class="dw-topline"></div>
-
-            <div class="dw-dashboard-head">
-              <div>
-                <span class="mini-label">Sitio conectado al sistema</span>
-                <h3>Web sincronizada con tu stock</h3>
-              </div>
-              <span class="status-pill">Activa</span>
-            </div>
-
-            <div class="dw-metrics-grid">
-              <div class="dw-metric-card">
-                <span>Publicación</span>
-                <strong>Automática</strong>
-              </div>
-
-              <div class="dw-metric-card">
-                <span>Consultas</span>
-                <strong>Centralizadas</strong>
-              </div>
-
-              <div class="dw-metric-card wide">
-                <span>Resultado</span>
-                <strong>Más visibilidad, más orden, más ventas</strong>
-              </div>
-            </div>
+        <div class="webp-hero-showcase reveal">
+          <div class="webp-browser webp-browser-main">
+            <div class="webp-browser-bar"><span></span><span></span><span></span><div>tuconcesionaria.com</div></div>
+            <img src="../assets/img/modelooscuro.JPG" alt="Ejemplo de página web oscura para concesionario creada con Dromux" fetchpriority="high" />
           </div>
-
-          <div class="dw-dashboard-card dw-dashboard-mini dw-mini-a floating-card">
-            <i data-lucide="search"></i>
-            <div>
-              <span class="mini-label">SEO optimizado</span>
-              <strong>URLs amigables y posicionamiento</strong>
-            </div>
-          </div>
-
-          <div class="dw-dashboard-card dw-dashboard-mini dw-mini-b floating-card">
-            <i data-lucide="messages-square"></i>
-            <div>
-              <span class="mini-label">Leads integrados</span>
-              <strong>Consultas directas a tu whatsapp</strong>
-            </div>
-          </div>
+          <div class="webp-floating-card webp-float-stock"><i data-lucide="refresh-cw"></i><div><strong>Stock sincronizado</strong><span>Publicás una sola vez</span></div></div>
+          <div class="webp-floating-card webp-float-mobile"><i data-lucide="smartphone"></i><div><strong>Responsive</strong><span>Lista para celular</span></div></div>
         </div>
       </div>
     </section>
 
-    <section class="dw-section reveal">
-      <div class="dw-container dw-section-head centered-head narrow-head">
-        <span class="dw-kicker">Cómo funciona</span>
-        <h2>¿Qué es Dromux y cómo transforma tu concesionaria?</h2>
-      </div>
-
-      <div class="dw-container dw-text-shell premium-surface">
-        <p>
-          Dromux es un sistema de gestión para concesionarios diseñado específicamente
-          para agencias de autos en Argentina. No es solo una página web para vender vehículos,
-          es una plataforma integral que conecta tu stock, tu equipo comercial y tus clientes
-          en un solo ecosistema digital.
-        </p>
-
-        <p>
-          Cuando cargás un vehículo en el sistema, automáticamente se publica en tu página web.
-          Si modificás el precio o lo marcás como vendido, se actualiza en tiempo real.
-          Esto elimina tareas manuales y asegura que tu web siempre tenga el stock actualizado.
-        </p>
-
-        <p>
-          Además, cada vehículo tiene su propia URL optimizada para Google,
-          permitiendo que tu concesionaria gane visibilidad orgánica en búsquedas como
-          “autos usados en venta en Argentina” o “agencia de autos en tu ciudad”.
-        </p>
+    <section class="webp-strip">
+      <div class="webp-container webp-strip-inner">
+        <span>Tu marca</span><i data-lucide="plus"></i><span>Tu stock</span><i data-lucide="plus"></i><span>Tu dominio</span><i data-lucide="plus"></i><span>Dromux</span><i data-lucide="equal"></i><strong>Una web que trabaja con tu negocio</strong>
       </div>
     </section>
 
-    <section class="dw-section dw-dark reveal">
-      <div class="dw-container dw-section-head centered-head narrow-head">
-        <span class="dw-kicker">Beneficios</span>
-        <h2>Beneficios de tener un sistema con web incluida</h2>
-      </div>
-
-      <div class="dw-container dw-grid">
-        <div class="dw-card premium-card">
-          <div class="dw-card-icon">
-            <i data-lucide="refresh-cw"></i>
-          </div>
-          <h3>Automatización total del stock</h3>
-          <p>
-            Publicación automática, actualización en tiempo real y eliminación de errores manuales.
-          </p>
+    <section class="webp-section webp-light" id="como-funciona">
+      <div class="webp-container">
+        <div class="webp-section-heading webp-heading-center reveal">
+          <span class="webp-kicker">Una sola carga</span>
+          <h2>Tu página web y tu stock dejan de ser dos trabajos diferentes</h2>
+          <p>Cuando una web está separada del sistema, cada vehículo nuevo, cambio de precio o venta obliga a actualizar información en más de un lugar. Dromux conecta ambas partes.</p>
         </div>
 
-        <div class="dw-card premium-card">
-          <div class="dw-card-icon">
-            <i data-lucide="search-code"></i>
-          </div>
-          <h3>Más visibilidad en Google</h3>
-          <p>
-            SEO optimizado, meta tags estratégicos, URLs amigables y estructura pensada para posicionar.
-          </p>
-        </div>
-
-        <div class="dw-card premium-card">
-          <div class="dw-card-icon">
-            <i data-lucide="users-round"></i>
-          </div>
-          <h3>Generación de leads centralizada</h3>
-          <p>
-            Todas las consultas entran al sistema para seguimiento profesional y cierre más rápido.
-          </p>
-        </div>
-
-        <div class="dw-card premium-card">
-          <div class="dw-card-icon">
-            <i data-lucide="monitor-smartphone"></i>
-          </div>
-          <h3>Imagen profesional</h3>
-          <p>
-            Diseño moderno, responsive y adaptado a tu marca con logo y colores personalizados.
-          </p>
-        </div>
-
-        <div class="dw-card premium-card">
-          <div class="dw-card-icon">
-            <i data-lucide="badge-check"></i>
-          </div>
-          <h3>Menos trabajo manual</h3>
-          <p>
-            Evitás duplicar tareas, reducís errores y mantenés la operación mucho más ordenada.
-          </p>
-        </div>
-
-        <div class="dw-card premium-card">
-          <div class="dw-card-icon">
-            <i data-lucide="activity"></i>
-          </div>
-          <h3>Más velocidad comercial</h3>
-          <p>
-            Tu equipo responde más rápido porque el stock y las consultas están conectados al sistema.
-          </p>
+        <div class="webp-flow reveal">
+          <article class="webp-flow-card"><div class="webp-flow-num">01</div><i data-lucide="car-front"></i><h3>Cargás el vehículo</h3><p>Ingresás los datos de la unidad dentro de Dromux y administrás allí su información.</p></article>
+          <div class="webp-flow-arrow"><i data-lucide="arrow-right"></i></div>
+          <article class="webp-flow-card"><div class="webp-flow-num">02</div><i data-lucide="globe"></i><h3>Lo publicás en tu web</h3><p>La unidad queda disponible en el catálogo público sin tener que volver a escribir toda la ficha.</p></article>
+          <div class="webp-flow-arrow"><i data-lucide="arrow-right"></i></div>
+          <article class="webp-flow-card"><div class="webp-flow-num">03</div><i data-lucide="message-circle"></i><h3>Recibís consultas</h3><p>El visitante encuentra el vehículo y puede contactarte rápidamente desde la misma publicación.</p></article>
+          <div class="webp-flow-arrow"><i data-lucide="arrow-right"></i></div>
+          <article class="webp-flow-card"><div class="webp-flow-num">04</div><i data-lucide="badge-check"></i><h3>Vendés y actualizás</h3><p>La operación sigue dentro del ecosistema Dromux, manteniendo información y stock ordenados.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="dw-section reveal">
-      <div class="dw-container dw-section-head centered-head narrow-head">
-        <span class="dw-kicker">Diferencial</span>
-        <h2>No es solo una web, es una web conectada al negocio</h2>
-      </div>
+    <section class="webp-section webp-dark webp-product-section">
+      <div class="webp-container webp-split">
+        <div class="webp-copy reveal">
+          <span class="webp-kicker webp-kicker-dark">Tu vidriera digital</span>
+          <h2>Una web pensada para vender autos, no una plantilla genérica</h2>
+          <p>La página pública pone al vehículo en primer plano: catálogo, fotografías, precio, características y acceso directo al contacto comercial. El diseño puede adaptarse a la identidad de tu concesionaria para que el cliente vea tu marca, no la de un proveedor de software.</p>
 
-      <div class="dw-container dw-steps-grid">
-        <div class="dw-step-card premium-surface">
-          <div class="dw-step-number">01</div>
-          <h3>Cargás una unidad</h3>
-          <p>La información entra una sola vez en el sistema.</p>
+          <div class="webp-checks">
+            <div><i data-lucide="check-circle-2"></i><span><strong>Catálogo de vehículos</strong> con fichas individuales.</span></div>
+            <div><i data-lucide="check-circle-2"></i><span><strong>Diseño personalizado</strong> con logo, identidad y datos comerciales.</span></div>
+            <div><i data-lucide="check-circle-2"></i><span><strong>Contacto por WhatsApp</strong> desde los puntos importantes de la navegación.</span></div>
+            <div><i data-lucide="check-circle-2"></i><span><strong>Experiencia responsive</strong> para personas que buscan autos desde el celular.</span></div>
+          </div>
         </div>
 
-        <div class="dw-step-card premium-surface">
-          <div class="dw-step-number">02</div>
-          <h3>Se publica automáticamente</h3>
-          <p>La web refleja el stock sin procesos manuales extra.</p>
-        </div>
-
-        <div class="dw-step-card premium-surface">
-          <div class="dw-step-number">03</div>
-          <h3>Entran las consultas</h3>
-          <p>Los leads se centralizan para seguimiento comercial real.</p>
-        </div>
-
-        <div class="dw-step-card premium-surface">
-          <div class="dw-step-number">04</div>
-          <h3>Tu operación escala mejor</h3>
-          <p>Más orden, mejor imagen y más capacidad para vender.</p>
+        <div class="webp-showcase-stack reveal">
+          <div class="webp-browser webp-browser-secondary">
+            <div class="webp-browser-bar"><span></span><span></span><span></span><div>concesionaria.com/vehiculos</div></div>
+            <img src="../assets/img/modeloblanco.JPG" alt="Ejemplo de diseño claro de una página para agencia de autos desarrollada con Dromux" loading="lazy" />
+          </div>
+          <div class="webp-design-switch"><i data-lucide="palette"></i><div><strong>Tu identidad</strong><span>Diseños claros u oscuros según la marca</span></div></div>
         </div>
       </div>
     </section>
 
-    <section class="dw-cta reveal">
-      <div class="dw-container dw-cta-box premium-surface premium-surface-strong">
-        <span class="dw-kicker dw-kicker-light">Digitalización real</span>
-        <h2>Digitalizá tu concesionaria hoy</h2>
-        <p>
-          Automatizá tu agencia de autos, profesionalizá tu imagen y vendé más con Dromux.
-        </p>
+    <section class="webp-section webp-light">
+      <div class="webp-container">
+        <div class="webp-section-heading reveal">
+          <span class="webp-kicker">Qué incluye</span>
+          <h2>Lo esencial para que tu concesionaria tenga una presencia digital profesional</h2>
+          <p>No necesitás administrar un CMS por separado ni depender de un catálogo desconectado de tu operación diaria.</p>
+        </div>
 
-        <a
-          href="https://wa.me/5493572674920?text=Quiero%20implementar%20Dromux"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="dw-btn dw-btn-primary dw-btn-large"
-        >
-          Hablar con un asesor
-        </a>
+        <div class="webp-feature-grid reveal">
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="car"></i></div><h3>Stock online</h3><p>Mostrá las unidades disponibles con fotografías, precio y características organizadas.</p></article>
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="file-text"></i></div><h3>Ficha de cada vehículo</h3><p>Cada publicación tiene su propia página para presentar mejor la unidad y facilitar la consulta.</p></article>
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="search"></i></div><h3>Base preparada para SEO</h3><p>Estructura semántica, URLs claras y contenido rastreable para construir visibilidad orgánica.</p></article>
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="smartphone"></i></div><h3>Diseño responsive</h3><p>La navegación se adapta a escritorio, tablet y celular sin mantener versiones separadas.</p></article>
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="message-circle-more"></i></div><h3>WhatsApp y consultas</h3><p>Acercá el contacto comercial al vehículo que el potencial cliente está mirando.</p></article>
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="map-pin"></i></div><h3>Información comercial</h3><p>Presentá ubicación, horarios, medios de contacto y redes de la concesionaria.</p></article>
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="paintbrush"></i></div><h3>Marca personalizada</h3><p>Logo, colores e identidad visual alineados con la imagen de tu negocio.</p></article>
+          <article class="webp-feature"><div class="webp-icon"><i data-lucide="link-2"></i></div><h3>Dominio propio</h3><p>Podés trabajar con una dirección web propia para fortalecer la presencia de tu concesionaria.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="webp-section webp-soft">
+      <div class="webp-container webp-compare-grid">
+        <div class="webp-compare-copy reveal">
+          <span class="webp-kicker">La diferencia</span>
+          <h2>Una web tradicional publica autos. Dromux conecta esa publicación con la gestión.</h2>
+          <p>El valor no está solamente en que el sitio se vea bien. Está en evitar que la información comercial viva separada del inventario y del trabajo interno de la agencia.</p>
+          <a href="/software-para-concesionarios/" class="webp-text-link">Conocer el software de gestión <i data-lucide="arrow-right"></i></a>
+        </div>
+
+        <div class="webp-compare-table reveal">
+          <div class="webp-compare-row webp-compare-head"><span></span><strong>Web separada</strong><strong>Dromux</strong></div>
+          <div class="webp-compare-row"><span>Cargar vehículos</span><span class="webp-negative">Dos sistemas</span><span class="webp-positive"><i data-lucide="check"></i> Una carga</span></div>
+          <div class="webp-compare-row"><span>Actualizar stock</span><span class="webp-negative">Manual</span><span class="webp-positive"><i data-lucide="check"></i> Integrado</span></div>
+          <div class="webp-compare-row"><span>Gestión comercial</span><span class="webp-negative">Por separado</span><span class="webp-positive"><i data-lucide="check"></i> Misma plataforma</span></div>
+          <div class="webp-compare-row"><span>Identidad del negocio</span><span>Depende del proveedor</span><span class="webp-positive"><i data-lucide="check"></i> Personalizable</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="webp-section webp-dark webp-seo-section">
+      <div class="webp-container webp-seo-layout">
+        <div class="webp-seo-copy reveal">
+          <span class="webp-kicker webp-kicker-dark">Visibilidad orgánica</span>
+          <h2>Una página web también debe poder ser entendida por Google</h2>
+          <p>Dromux entrega una base técnica orientada a buscadores: páginas rastreables, títulos y descripciones, estructura de encabezados, URLs claras, contenido legible y fichas individuales de vehículos. Eso crea una base para trabajar el posicionamiento de tu concesionaria en Google.</p>
+          <p class="webp-note"><i data-lucide="info"></i> El SEO no garantiza una posición específica: depende también de competencia, contenido, autoridad, ubicación y evolución del sitio.</p>
+        </div>
+        <div class="webp-seo-cards reveal">
+          <div><i data-lucide="braces"></i><strong>HTML semántico</strong><span>Estructura clara para usuarios y buscadores.</span></div>
+          <div><i data-lucide="route"></i><strong>URLs amigables</strong><span>Páginas comprensibles y enlazables.</span></div>
+          <div><i data-lucide="image"></i><strong>Imágenes descriptivas</strong><span>Contexto y atributos adecuados.</span></div>
+          <div><i data-lucide="network"></i><strong>Enlazado interno</strong><span>Contenido conectado dentro del sitio.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="webp-section webp-light">
+      <div class="webp-container">
+        <div class="webp-section-heading webp-heading-center reveal">
+          <span class="webp-kicker">Para tu negocio</span>
+          <h2>¿A quién le sirve una web integrada para concesionarios?</h2>
+          <p>Está pensada para negocios automotores que quieren profesionalizar su presencia online sin sumar trabajo administrativo.</p>
+        </div>
+        <div class="webp-audience reveal">
+          <article><i data-lucide="store"></i><h3>Agencias de autos usados</h3><p>Para publicar stock y mantener una vidriera digital propia.</p></article>
+          <article><i data-lucide="building-2"></i><h3>Concesionarias</h3><p>Para integrar presencia digital con procesos comerciales y administrativos.</p></article>
+          <article><i data-lucide="users"></i><h3>Equipos de venta</h3><p>Para compartir un catálogo actualizado y dirigir consultas al equipo comercial.</p></article>
+          <article><i data-lucide="trending-up"></i><h3>Negocios en crecimiento</h3><p>Para dejar atrás publicaciones aisladas y construir un activo digital propio.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="webp-section webp-faq-section">
+      <div class="webp-container webp-faq-layout">
+        <div class="webp-faq-intro reveal">
+          <span class="webp-kicker">Preguntas frecuentes</span>
+          <h2>Antes de crear la web de tu concesionaria</h2>
+          <p>Estas son algunas de las dudas más comunes cuando una agencia evalúa pasar de redes sociales o una web aislada a un sitio integrado con su sistema.</p>
+          <a href="/preguntas-frecuentes/" class="webp-text-link">Ver todas las preguntas <i data-lucide="arrow-right"></i></a>
+        </div>
+        <div class="webp-faq-list reveal">
+          <details><summary>¿Tengo que cargar los vehículos dos veces?<i data-lucide="plus"></i></summary><p>No. La idea de la integración es administrar la unidad desde Dromux y utilizar esa misma información para su publicación en la web.</p></details>
+          <details><summary>¿La página funciona en celulares?<i data-lucide="plus"></i></summary><p>Sí. El diseño es responsive para adaptarse a distintos tamaños de pantalla, algo especialmente importante porque gran parte de la búsqueda de vehículos ocurre desde dispositivos móviles.</p></details>
+          <details><summary>¿Puedo usar el dominio de mi concesionaria?<i data-lucide="plus"></i></summary><p>Sí. La implementación puede trabajar con dominio propio para que la dirección y la marca sean las de tu negocio.</p></details>
+          <details><summary>¿Puedo elegir el diseño?<i data-lucide="plus"></i></summary><p>La web puede adaptarse visualmente con logo, colores, información comercial y una estética acorde a la identidad del concesionario.</p></details>
+          <details><summary>¿Tener la web garantiza aparecer primero en Google?<i data-lucide="plus"></i></summary><p>No. La web puede estar técnicamente preparada para SEO, pero el posicionamiento depende de muchos factores y se construye con el tiempo. Preferimos plantearlo de forma transparente.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="webp-final">
+      <div class="webp-container webp-final-box reveal">
+        <div>
+          <span class="webp-kicker webp-kicker-dark">Sistema + página web</span>
+          <h2>Tu concesionaria puede gestionar y publicar desde el mismo lugar</h2>
+          <p>Conocé cómo Dromux conecta el stock, la operación interna y la presencia digital de tu agencia.</p>
+        </div>
+        <div class="webp-final-actions">
+          <a href="https://wa.me/5493572674920?text=Hola%2C%20quiero%20coordinar%20una%20demo%20de%20Dromux%20y%20ver%20la%20p%C3%A1gina%20web%20integrada" target="_blank" rel="noopener noreferrer" class="webp-btn webp-btn-primary"><i data-lucide="message-circle"></i> Pedir una demo</a>
+          <a href="/planes/" class="webp-btn webp-btn-secondary">Ver planes</a>
+        </div>
       </div>
     </section>
   </main>
@@ -404,131 +349,74 @@
     <div class="footer-container">
       <div class="footer-brand">
         <h3 class="footer-logo">Dromux</h3>
-        <p class="footer-description">
-          Dromux es un software para concesionarios en Argentina que te permite gestionar stock,
-          ventas, clientes y rentabilidad desde un solo sistema.
-        </p>
+        <p class="footer-description">Software para concesionarios y agencias de autos que conecta stock, clientes, ventas, administración y página web desde una sola plataforma.</p>
       </div>
-
       <div class="footer-contact">
         <h4 class="footer-subtitle">Contacto</h4>
         <ul class="footer-contact-list">
-          <li>
-            <i data-lucide="map-pin" class="footer-icon"></i>
-            <span>Oncativo, Córdoba, Argentina</span>
-          </li>
-          <li>
-            <i data-lucide="message-circle" class="footer-icon"></i>
-            <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer">
-              +54 9 3572 674920
-            </a>
-          </li>
-          <li>
-            <i data-lucide="mail" class="footer-icon"></i>
-            <a href="mailto:dromuxmotors@gmail.com">
-              dromuxmotors@gmail.com
-            </a>
-          </li>
+          <li><i data-lucide="map-pin" class="footer-icon"></i><span>Oncativo, Córdoba, Argentina</span></li>
+          <li><i data-lucide="message-circle" class="footer-icon"></i><a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer">+54 9 3572 674920</a></li>
+          <li><i data-lucide="mail" class="footer-icon"></i><a href="mailto:dromuxmotors@gmail.com">dromuxmotors@gmail.com</a></li>
         </ul>
       </div>
-
       <div class="footer-social">
         <h4 class="footer-subtitle">Seguinos</h4>
         <div class="footer-social-icons">
-          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f social-icon"></i></a>
-          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram social-icon"></i></a>
-          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp social-icon"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61570872520576" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Dromux"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+          <a href="https://www.instagram.com/dromux.motors/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Dromux"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href="https://wa.me/5493572674920" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Dromux"><i class="fa-brands fa-whatsapp social-icon"></i></a>
         </div>
       </div>
     </div>
-
-    <div class="footer-bottom">
-      <p class="footer-copyright">
-        &copy; 2026 Dromux. Software para concesionarios en Argentina.
-      </p>
-    </div>
+    <div class="footer-bottom"><p class="footer-copyright">&copy; 2026 Dromux. Software para concesionarios en Argentina.</p></div>
   </footer>
 
   <div class="whatsapp-fab" aria-label="Contacto por WhatsApp">
-    <a
-      href="https://wa.me/5493572674920?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20los%20planes%20y%20precios."
-      class="whatsapp-fab__button"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Abrir chat de WhatsApp"
-    >
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
-        alt="WhatsApp"
-        class="whatsapp-fab__icon"
-        loading="lazy"
-      />
+    <a href="https://wa.me/5493572674920?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20Dromux." class="whatsapp-fab__button" target="_blank" rel="noopener noreferrer" aria-label="Abrir chat de WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="Contactar a Dromux por WhatsApp" class="whatsapp-fab__icon" loading="lazy" />
       <span class="whatsapp-fab__pulse"></span>
     </a>
-
-    <div class="whatsapp-fab__tooltip" id="waTooltip">
-      ¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong>
-    </div>
+    <div class="whatsapp-fab__tooltip" id="waTooltip">¿Necesitás ayuda? <strong>¡Escribime por WhatsApp!</strong></div>
   </div>
 
   <script>
-    window.addEventListener("load", function () {
-      const tooltip = document.getElementById("waTooltip");
-
-      setTimeout(() => {
-        tooltip.classList.add("is-visible");
-      }, 1000);
-
-      setTimeout(() => {
-        tooltip.classList.remove("is-visible");
-      }, 5500);
-    });
-  </script>
-
-  <script>
     lucide.createIcons();
-  </script>
 
-  <script>
     const navbar = document.getElementById("navbar");
     const hamburger = document.getElementById("hamburger");
     const mobileMenu = document.getElementById("mobileMenu");
     const mobileOverlay = document.getElementById("mobileOverlay");
     const closeMenu = document.getElementById("closeMenu");
 
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 20) {
-        navbar.classList.add("scrolled");
-      } else {
-        navbar.classList.remove("scrolled");
-      }
-    });
-
+    window.addEventListener("scroll", () => navbar?.classList.toggle("scrolled", window.scrollY > 20));
     hamburger?.addEventListener("click", () => {
       mobileMenu.classList.add("active");
       mobileOverlay.classList.add("active");
       document.body.style.overflow = "hidden";
     });
-
     function closeMobileMenu() {
-      mobileMenu.classList.remove("active");
-      mobileOverlay.classList.remove("active");
+      mobileMenu?.classList.remove("active");
+      mobileOverlay?.classList.remove("active");
       document.body.style.overflow = "";
     }
-
     mobileOverlay?.addEventListener("click", closeMobileMenu);
     closeMenu?.addEventListener("click", closeMobileMenu);
 
-    const elements = document.querySelectorAll(".reveal");
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.1 });
+    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
-    elements.forEach((el) => observer.observe(el));
+    const tooltip = document.getElementById("waTooltip");
+    window.addEventListener("load", () => {
+      setTimeout(() => tooltip?.classList.add("is-visible"), 1000);
+      setTimeout(() => tooltip?.classList.remove("is-visible"), 5500);
+    });
   </script>
 </body>
 </html>
