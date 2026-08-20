@@ -1,57 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.dromux.com/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://dromux.com/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
-
   <url>
-    <loc>https://www.dromux.com/software-para-concesionarios/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://dromux.com/software-para-concesionarios/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
-
   <url>
-    <loc>https://www.dromux.com/planes/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://dromux.com/funcionalidades/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
-
   <url>
-    <loc>https://www.dromux.com/funcionalidades/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://dromux.com/web-para-concesionarios/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
-
   <url>
-    <loc>https://www.dromux.com/web-para-concesionarios/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://dromux.com/planes/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
-
   <url>
-    <loc>https://www.dromux.com/preguntas-frecuentes/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://dromux.com/preguntas-frecuentes/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
-
   <url>
-    <loc>https://www.dromux.com/contacto/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://dromux.com/contacto/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
-
+  <url>
+    <loc>https://dromux.com/crm-para-concesionarios/</loc>
+    <lastmod>2026-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://dromux.com/gestion-de-stock-para-concesionarios/</loc>
+    <lastmod>2026-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://dromux.com/software-de-ventas-para-concesionarios/</loc>
+    <lastmod>2026-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://dromux.com/tesoreria-para-concesionarios/</loc>
+    <lastmod>2026-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://dromux.com/software-de-gestoria-automotor/</loc>
+    <lastmod>2026-08-19</lastmod>
+  </url>
 </urlset>
