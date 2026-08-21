@@ -371,3 +371,17 @@
     padding-inline: 0;
   }
 }
+
+/* =========================================================
+   AJUSTE V2.2 · MODELO WEB ÚNICO CENTRADO
+   ========================================================= */
+.hv2-web-grid {
+  grid-template-columns: minmax(0, 760px);
+  justify-content: center;
+}
+
+@media (max-width: 980px) {
+  .hv2-web-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
