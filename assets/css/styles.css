@@ -6985,3 +6985,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
     animation: none !important;
   }
 }
+
+/* Dromux legal footer links */
+.footer-legal-links{width:var(--container);margin:0 auto;padding:0 0 18px;display:flex;justify-content:center;flex-wrap:wrap;gap:9px 13px;color:var(--muted);font-size:.86rem}.footer-legal-links a{color:var(--muted);text-decoration:none}.footer-legal-links a:hover{color:#fff}@media(max-width:820px){.footer-legal-links{width:min(100% - 32px,1120px)}}
